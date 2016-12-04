@@ -1,0 +1,1219 @@
+[debug] :: resolving dependencies :: default#finalproject$sources_2.12;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.12.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49e7164d
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.0
+[debug] 	found org.scala-lang#scala-library;2.12.0 in sbt-chain
+[debug] 	[2.12.0] org.scala-lang#scala-library;2.12.0
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[info] Resolving org.eclipse.jdt#core;3.3.0-v_771 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3704b0c6
+[debug] sbt-chain: module revision found in cache: org.eclipse.jdt#core;3.3.0-v_771
+[debug] 	found org.eclipse.jdt#core;3.3.0-v_771 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->default(compile)]
+[info] Resolving org.eclipse.core#resources;3.3.0-v20070604 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4df8d6ff
+[debug] sbt-chain: module revision found in cache: org.eclipse.core#resources;3.3.0-v20070604
+[debug] 	found org.eclipse.core#resources;3.3.0-v20070604 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->default(compile)]
+[info] Resolving org.eclipse.core#expressions;3.3.0-v20070606-0010 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b0b2da
+[debug] sbt-chain: module revision found in cache: org.eclipse.core#expressions;3.3.0-v20070606-0010
+[debug] 	found org.eclipse.core#expressions;3.3.0-v20070606-0010 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->default(compile)]
+[info] Resolving org.eclipse.core#filesystem;1.1.0-v20070606 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51a18464
+[debug] sbt-chain: module revision found in cache: org.eclipse.core#filesystem;1.1.0-v20070606
+[debug] 	found org.eclipse.core#filesystem;1.1.0-v20070606 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->default(compile)]
+[info] Resolving org.eclipse.equinox#common;3.6.200-v20130402-1505 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43a20782
+[debug] sbt-chain: module revision found in cache: org.eclipse.equinox#common;3.6.200-v20130402-1505
+[debug] 	found org.eclipse.equinox#common;3.6.200-v20130402-1505 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->default(compile)]
+[info] Resolving org.eclipse.equinox#registry;3.5.400-v20140428-1507 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b1a9b21
+[debug] sbt-chain: module revision found in cache: org.eclipse.equinox#registry;3.5.400-v20140428-1507
+[debug] 	found org.eclipse.equinox#registry;3.5.400-v20140428-1507 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->default(compile)]
+[info] Resolving org.eclipse#osgi;3.10.0-v20140606-1445 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d4cdf56
+[debug] sbt-chain: module revision found in cache: org.eclipse#osgi;3.10.0-v20140606-1445
+[debug] 	found org.eclipse#osgi;3.10.0-v20140606-1445 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->default(compile)]
+[info] Resolving org.eclipse.core#runtime;3.10.0-v20140318-2214 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5937e3ce
+[debug] sbt-chain: module revision found in cache: org.eclipse.core#runtime;3.10.0-v20140318-2214
+[debug] 	found org.eclipse.core#runtime;3.10.0-v20140318-2214 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->default(compile)]
+[info] Resolving org.eclipse.core#jobs;3.6.0-v20140424-0053 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66a7ec28
+[debug] sbt-chain: module revision found in cache: org.eclipse.core#jobs;3.6.0-v20140424-0053
+[debug] 	found org.eclipse.core#jobs;3.6.0-v20140424-0053 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->default(compile)]
+[info] Resolving org.eclipse.equinox#preferences;3.5.200-v20140224-1527 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3be570b6
+[debug] sbt-chain: module revision found in cache: org.eclipse.equinox#preferences;3.5.200-v20140224-1527
+[debug] 	found org.eclipse.equinox#preferences;3.5.200-v20140224-1527 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->default(compile)]
+[info] Resolving org.eclipse.core#contenttype;3.4.200-v20140207-1251 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e897a26
+[debug] sbt-chain: module revision found in cache: org.eclipse.core#contenttype;3.4.200-v20140207-1251
+[debug] 	found org.eclipse.core#contenttype;3.4.200-v20140207-1251 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->default(compile)]
+[info] Resolving org.eclipse.equinox#app;1.3.200-v20130910-1609 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55524aca
+[debug] sbt-chain: module revision found in cache: org.eclipse.equinox#app;1.3.200-v20130910-1609
+[debug] 	found org.eclipse.equinox#app;1.3.200-v20130910-1609 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->default(compile)]
+[info] Resolving org.eclipse#text;3.3.0-v20070606-0010 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77ac5a80
+[debug] sbt-chain: module revision found in cache: org.eclipse#text;3.3.0-v20070606-0010
+[debug] 	found org.eclipse#text;3.3.0-v20070606-0010 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->default(compile)]
+[info] Resolving org.eclipse.core#commands;3.3.0-I20070605-0010 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@620f5ea6
+[debug] sbt-chain: module revision found in cache: org.eclipse.core#commands;3.3.0-I20070605-0010
+[debug] 	found org.eclipse.core#commands;3.3.0-I20070605-0010 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [runtime]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [test]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [runtime]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [compile-internal]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->master]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [optional]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [provided]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [runtime-internal]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [runtime]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->master]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [optional]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [test-internal]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [test]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [runtime]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [compile->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [runtime->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test->master]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [optional]
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [provided]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#resources;3.3.0-v20070604 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#expressions;3.3.0-v20070606-0010 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#filesystem;1.1.0-v20070606 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse#text;3.3.0-v20070606-0010 [test-internal->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test-internal->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test-internal->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test-internal->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.eclipse.core#commands;3.3.0-I20070605-0010 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#finalproject$sources_2.12;1.0 [scala-tool]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [scala-tool->default(compile)]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [scala-tool->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [scala-tool->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-library;2.12.0 [scala-tool->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-compiler;2.12.0 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.12.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.0 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.0
+[debug] 	found org.scala-lang#scala-compiler;2.12.0 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-compiler;2.12.0 [scala-tool->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-compiler;2.12.0 [scala-tool->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-compiler;2.12.0 [scala-tool->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-reflect;2.12.0 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.12.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.0 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.0
+[debug] 	found org.scala-lang#scala-reflect;2.12.0 in sbt-chain
+[debug] 	[2.12.0] org.scala-lang#scala-reflect;2.12.0
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-reflect;2.12.0 [scala-tool->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-reflect;2.12.0 [scala-tool->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang#scala-reflect;2.12.0 [scala-tool->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.12;1.0.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.5 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [scala-tool->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [scala-tool->master]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->jline#jline;2.14.1 [scala-tool->default(compile)]
+[info] Resolving jline#jline;2.14.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.1 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.14.1
+[debug] 	found jline#jline;2.14.1 in sbt-chain
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->jline#jline;2.14.1 [scala-tool->runtime]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->jline#jline;2.14.1 [scala-tool->compile]
+[debug] == resolving dependencies default#finalproject$sources_2.12;1.0->jline#jline;2.14.1 [scala-tool->master]
+[debug] circular dependency found: org.scala-lang#scala-compiler;2.12.0->org.scala-lang.modules#scala-xml_2.12;1.0.5->...
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.0!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.0!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jdt#core;3.3.0-v_771!core.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.jdt/core/3.3.0-v_771/srcs/core-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771-sources.jar
+[warn] 	[FAILED     ] org.eclipse.jdt#core;3.3.0-v_771!core.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/samrudhinayak/.ivy2/local/org.eclipse.jdt/core/3.3.0-v_771/srcs/core-sources.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771-sources.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/resources/3.3.0-v20070604/srcs/resources-sources.jar
+[debug] 	[NOT REQUIRED] org.eclipse.core#resources;3.3.0-v20070604!resources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604-sources.jar
+[warn] 	[FAILED     ] org.eclipse.core#resources;3.3.0-v20070604!resources.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/samrudhinayak/.ivy2/local/org.eclipse.core/resources/3.3.0-v20070604/srcs/resources-sources.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604-sources.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/expressions/3.3.0-v20070606-0010/srcs/expressions-sources.jar
+[debug] 	[NOT REQUIRED] org.eclipse.core#expressions;3.3.0-v20070606-0010!expressions.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010-sources.jar
+[warn] 	[FAILED     ] org.eclipse.core#expressions;3.3.0-v20070606-0010!expressions.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/samrudhinayak/.ivy2/local/org.eclipse.core/expressions/3.3.0-v20070606-0010/srcs/expressions-sources.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010-sources.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/filesystem/1.1.0-v20070606/srcs/filesystem-sources.jar
+[debug] 	[NOT REQUIRED] org.eclipse.core#filesystem;1.1.0-v20070606!filesystem.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606-sources.jar
+[warn] 	[FAILED     ] org.eclipse.core#filesystem;1.1.0-v20070606!filesystem.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/samrudhinayak/.ivy2/local/org.eclipse.core/filesystem/1.1.0-v20070606/srcs/filesystem-sources.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606-sources.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/common/3.6.200-v20130402-1505/srcs/common-sources.jar
+[debug] 	[NOT REQUIRED] org.eclipse.equinox#common;3.6.200-v20130402-1505!common.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.equinox#common;3.6.200-v20130402-1505!common.jar(src) (559ms)
+[debug] 	[NOT REQUIRED] org.eclipse.equinox#registry;3.5.400-v20140428-1507!registry.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/registry/3.5.400-v20140428-1507/srcs/registry-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.equinox#registry;3.5.400-v20140428-1507!registry.jar(src) (381ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/osgi/3.10.0-v20140606-1445/srcs/osgi-sources.jar
+[debug] 	[NOT REQUIRED] org.eclipse#osgi;3.10.0-v20140606-1445!osgi.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse#osgi;3.10.0-v20140606-1445!osgi.jar(src) (3352ms)
+[debug] 	[NOT REQUIRED] org.eclipse.core#runtime;3.10.0-v20140318-2214!runtime.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/runtime/3.10.0-v20140318-2214/srcs/runtime-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#runtime;3.10.0-v20140318-2214!runtime.jar(src) (410ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/jobs/3.6.0-v20140424-0053/srcs/jobs-sources.jar
+[debug] 	[NOT REQUIRED] org.eclipse.core#jobs;3.6.0-v20140424-0053!jobs.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#jobs;3.6.0-v20140424-0053!jobs.jar(src) (376ms)
+[debug] 	[NOT REQUIRED] org.eclipse.equinox#preferences;3.5.200-v20140224-1527!preferences.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/preferences/3.5.200-v20140224-1527/srcs/preferences-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.equinox#preferences;3.5.200-v20140224-1527!preferences.jar(src) (362ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/contenttype/3.4.200-v20140207-1251/srcs/contenttype-sources.jar
+[debug] 	[NOT REQUIRED] org.eclipse.core#contenttype;3.4.200-v20140207-1251!contenttype.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#contenttype;3.4.200-v20140207-1251!contenttype.jar(src) (306ms)
+[debug] 	[NOT REQUIRED] org.eclipse.equinox#app;1.3.200-v20130910-1609!app.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/app/1.3.200-v20130910-1609/srcs/app-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.equinox#app;1.3.200-v20130910-1609!app.jar(src) (318ms)
+[debug] 	[NOT REQUIRED] org.eclipse#text;3.3.0-v20070606-0010!text.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/text/3.3.0-v20070606-0010/srcs/text-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010-sources.jar
+[warn] 	[FAILED     ] org.eclipse#text;3.3.0-v20070606-0010!text.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/samrudhinayak/.ivy2/local/org.eclipse/text/3.3.0-v20070606-0010/srcs/text-sources.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010-sources.jar
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/commands/3.3.0-I20070605-0010/srcs/commands-sources.jar
+[debug] 	[NOT REQUIRED] org.eclipse.core#commands;3.3.0-I20070605-0010!commands.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010-sources.jar
+[warn] 	[FAILED     ] org.eclipse.core#commands;3.3.0-I20070605-0010!commands.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /Users/samrudhinayak/.ivy2/local/org.eclipse.core/commands/3.3.0-I20070605-0010/srcs/commands-sources.jar
+[warn] ==== jcenter: tried
+[warn]   https://jcenter.bintray.com/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.0!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.0!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar(src)
+[debug] :: resolution report :: resolve 340ms :: artifacts dl 11505ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.eclipse.jdt#core;3.3.0-v_771!core.jar(src)
+[warn] 	:: org.eclipse.core#resources;3.3.0-v20070604!resources.jar(src)
+[warn] 	:: org.eclipse.core#expressions;3.3.0-v20070606-0010!expressions.jar(src)
+[warn] 	:: org.eclipse.core#filesystem;1.1.0-v20070606!filesystem.jar(src)
+[warn] 	:: org.eclipse#text;3.3.0-v20070606-0010!text.jar(src)
+[warn] 	:: org.eclipse.core#commands;3.3.0-I20070605-0010!commands.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for default#finalproject$sources_2.12;1.0 compile produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-compile.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 runtime produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-runtime.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 test produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-test.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 provided produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-provided.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 optional produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-optional.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 compile-internal produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-compile-internal.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 runtime-internal produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-runtime-internal.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 test-internal produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-test-internal.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 plugin produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-plugin.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 sources produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-sources.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 docs produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-docs.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 pom produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-pom.xml
+[debug] 	report for default#finalproject$sources_2.12;1.0 scala-tool produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject$sources_2.12-scala-tool.xml
+[debug] 	resolve done (340ms resolve - 11505ms download)

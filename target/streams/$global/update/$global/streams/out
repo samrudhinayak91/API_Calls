@@ -1,0 +1,1571 @@
+[info] Updating {file:/Users/samrudhinayak/FinalProject/}finalproject...
+[debug] :: resolving dependencies :: default#finalproject_2.12;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.12.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6855e477
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.0
+[debug] 	found org.scala-lang#scala-library;2.12.0 in sbt-chain
+[debug] 	[2.12.0] org.scala-lang#scala-library;2.12.0
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[info] Resolving org.eclipse.jdt#core;3.3.0-v_771 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jdt#core;3.3.0-v_771 {compile=[default(compile)]}
+[info] Resolving org.eclipse.jdt#core;3.3.0-v_771 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jdt#core;3.3.0-v_771 {compile=[default(compile)]}
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.jdt/core/3.3.0-v_771/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jdt#core;3.3.0-v_771
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.pom
+[debug] 	jcenter: found md file for org.eclipse.jdt#core;3.3.0-v_771
+[debug] 		=> https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.pom (3.3.0-v_771)
+[debug] downloading https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jdt#core;3.3.0-v_771!core.pom(pom.original) (276ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.jdt/core/3.3.0-v_771/jars/core.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.jar
+[debug] 	found org.eclipse.jdt#core;3.3.0-v_771 in jcenter
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.core#resources;[3.2.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.core#resources;[3.2.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#resources;[3.2.0,4.0.0)
+[info] Resolving org.eclipse.core#resources;[3.2.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#resources;[3.2.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#resources;[3.2.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#resources;[3.2.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/resources/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.core#resources;[3.2.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#resources;[3.2.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/resources/[revision]/resources-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.core#resources;[3.2.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#resources;[3.2.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/resources/[revision]/resources-[revision].pom
+[debug] 	public: found md file for org.eclipse.core#resources;[3.2.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.pom (3.3.0-v20070604)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.core#resources;3.3.0-v20070604!resources.pom(pom.original) (82ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/resources/3.3.0-v20070604/jars/resources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.jar
+[debug] 		[3.3.0-v20070604] org.eclipse.core#resources
+[debug] 	found org.eclipse.core#resources;3.3.0-v20070604 in public
+[debug] 	[3.3.0-v20070604] org.eclipse.core#resources;[3.2.0,4.0.0)
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.core#expressions;[3.1.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.core#expressions;[3.1.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#expressions;[3.1.0,4.0.0)
+[info] Resolving org.eclipse.core#expressions;[3.1.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#expressions;[3.1.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#expressions;[3.1.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#expressions;[3.1.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/expressions/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.core#expressions;[3.1.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#expressions;[3.1.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/expressions/[revision]/expressions-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.core#expressions;[3.1.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#expressions;[3.1.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/expressions/[revision]/expressions-[revision].pom
+[debug] 	public: found md file for org.eclipse.core#expressions;[3.1.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.pom (3.3.0-v20070606-0010)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.core#expressions;3.3.0-v20070606-0010!expressions.pom(pom.original) (74ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/expressions/3.3.0-v20070606-0010/jars/expressions.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.jar
+[debug] 		[3.3.0-v20070606-0010] org.eclipse.core#expressions
+[debug] 	found org.eclipse.core#expressions;3.3.0-v20070606-0010 in public
+[debug] 	[3.3.0-v20070606-0010] org.eclipse.core#expressions;[3.1.0,4.0.0)
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.core#filesystem;[1.0.0,2.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.core#filesystem;[1.0.0,2.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#filesystem;[1.0.0,2.0.0)
+[info] Resolving org.eclipse.core#filesystem;[1.0.0,2.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#filesystem;[1.0.0,2.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#filesystem;[1.0.0,2.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#filesystem;[1.0.0,2.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/filesystem/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.core#filesystem;[1.0.0,2.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#filesystem;[1.0.0,2.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/filesystem/[revision]/filesystem-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.core#filesystem;[1.0.0,2.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#filesystem;[1.0.0,2.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/filesystem/[revision]/filesystem-[revision].pom
+[debug] 	public: found md file for org.eclipse.core#filesystem;[1.0.0,2.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.pom (1.1.0-v20070606)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.core#filesystem;1.1.0-v20070606!filesystem.pom(pom.original) (68ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/filesystem/1.1.0-v20070606/jars/filesystem.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.jar
+[debug] 		[1.1.0-v20070606] org.eclipse.core#filesystem
+[debug] 	found org.eclipse.core#filesystem;1.1.0-v20070606 in public
+[debug] 	[1.1.0-v20070606] org.eclipse.core#filesystem;[1.0.0,2.0.0)
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[info] Resolving org.eclipse.equinox#common;[0,) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.equinox#common;[0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[0,)
+[info] Resolving org.eclipse.equinox#common;[0,) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#common;[0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[0,)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[0,)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/common/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.equinox#common;[0,)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[0,)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/common/[revision]/common-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.equinox#common;[0,)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[0,)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/common/[revision]/common-[revision].pom
+[debug] 	public: found md file for org.eclipse.equinox#common;[0,)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.pom (3.6.200-v20130402-1505)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.equinox#common;3.6.200-v20130402-1505!common.pom(pom.original) (84ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/common/3.6.200-v20130402-1505/jars/common.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.jar
+[debug] 		[3.6.200-v20130402-1505] org.eclipse.equinox#common
+[debug] 	found org.eclipse.equinox#common;3.6.200-v20130402-1505 in public
+[debug] 	[3.6.200-v20130402-1505] org.eclipse.equinox#common;[0,)
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[info] Resolving org.eclipse.equinox#registry;[0,) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.equinox#registry;[0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[0,)
+[info] Resolving org.eclipse.equinox#registry;[0,) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#registry;[0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[0,)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[0,)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/registry/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.equinox#registry;[0,)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[0,)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/registry/[revision]/registry-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.equinox#registry;[0,)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[0,)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/registry/[revision]/registry-[revision].pom
+[debug] 	public: found md file for org.eclipse.equinox#registry;[0,)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.pom (3.5.400-v20140428-1507)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.equinox#registry;3.5.400-v20140428-1507!registry.pom(pom.original) (70ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/registry/3.5.400-v20140428-1507/jars/registry.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.jar
+[debug] 		[3.5.400-v20140428-1507] org.eclipse.equinox#registry
+[debug] 	found org.eclipse.equinox#registry;3.5.400-v20140428-1507 in public
+[debug] 	[3.5.400-v20140428-1507] org.eclipse.equinox#registry;[0,)
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[info] Resolving org.eclipse#osgi;[0,) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse#osgi;[0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[0,)
+[info] Resolving org.eclipse#osgi;[0,) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse#osgi;[0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[0,)
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[0,)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/osgi/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse#osgi;[0,)
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[0,)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/osgi/[revision]/osgi-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse#osgi;[0,)
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[0,)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/osgi/[revision]/osgi-[revision].pom
+[debug] 	public: found md file for org.eclipse#osgi;[0,)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.pom (3.10.0-v20140606-1445)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.pom
+[debug] 	[SUCCESSFUL ] org.eclipse#osgi;3.10.0-v20140606-1445!osgi.pom(pom.original) (69ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/osgi/3.10.0-v20140606-1445/jars/osgi.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.jar
+[debug] 		[3.10.0-v20140606-1445] org.eclipse#osgi
+[debug] 	found org.eclipse#osgi;3.10.0-v20140606-1445 in public
+[debug] 	[3.10.0-v20140606-1445] org.eclipse#osgi;[0,)
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.core#runtime;[3.3.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.core#runtime;[3.3.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#runtime;[3.3.0,4.0.0)
+[info] Resolving org.eclipse.core#runtime;[3.3.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#runtime;[3.3.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#runtime;[3.3.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#runtime;[3.3.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/runtime/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.core#runtime;[3.3.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#runtime;[3.3.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/runtime/[revision]/runtime-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.core#runtime;[3.3.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#runtime;[3.3.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/runtime/[revision]/runtime-[revision].pom
+[debug] 	public: found md file for org.eclipse.core#runtime;[3.3.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.pom (3.10.0-v20140318-2214)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.core#runtime;3.10.0-v20140318-2214!runtime.pom(pom.original) (77ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/runtime/3.10.0-v20140318-2214/jars/runtime.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.jar
+[debug] 		[3.10.0-v20140318-2214] org.eclipse.core#runtime
+[debug] 	found org.eclipse.core#runtime;3.10.0-v20140318-2214 in public
+[debug] 	[3.10.0-v20140318-2214] org.eclipse.core#runtime;[3.3.0,4.0.0)
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[3.7.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse#osgi;[3.7.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse#osgi;[3.7.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[3.7.0,4.0.0)
+[info] Resolving org.eclipse#osgi;[3.7.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse#osgi;[3.7.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[3.7.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[3.7.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/osgi/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse#osgi;[3.7.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[3.7.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/osgi/[revision]/osgi-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse#osgi;[3.7.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse#osgi;[3.7.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/osgi/[revision]/osgi-[revision].pom
+[debug] 	public: found md file for org.eclipse#osgi;[3.7.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.pom (3.10.0-v20140606-1445)
+[debug] 	public: revision already resolved: org.eclipse#osgi;3.10.0-v20140606-1445
+[debug] 		[3.10.0-v20140606-1445] org.eclipse#osgi
+[debug] 	found org.eclipse#osgi;3.10.0-v20140606-1445 in public
+[debug] 	[3.10.0-v20140606-1445] org.eclipse#osgi;[3.7.0,4.0.0)
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.6.100,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.equinox#common;[3.6.100,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.equinox#common;[3.6.100,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.6.100,4.0.0)
+[info] Resolving org.eclipse.equinox#common;[3.6.100,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#common;[3.6.100,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.6.100,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.6.100,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/common/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.equinox#common;[3.6.100,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.6.100,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/common/[revision]/common-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.equinox#common;[3.6.100,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.6.100,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/common/[revision]/common-[revision].pom
+[debug] 	public: found md file for org.eclipse.equinox#common;[3.6.100,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.pom (3.6.200-v20130402-1505)
+[debug] 	public: revision already resolved: org.eclipse.equinox#common;3.6.200-v20130402-1505
+[debug] 		[3.6.200-v20130402-1505] org.eclipse.equinox#common
+[debug] 	found org.eclipse.equinox#common;3.6.200-v20130402-1505 in public
+[debug] 	[3.6.200-v20130402-1505] org.eclipse.equinox#common;[3.6.100,4.0.0)
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.core#jobs;[3.2.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.core#jobs;[3.2.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#jobs;[3.2.0,4.0.0)
+[info] Resolving org.eclipse.core#jobs;[3.2.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#jobs;[3.2.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#jobs;[3.2.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#jobs;[3.2.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/jobs/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.core#jobs;[3.2.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#jobs;[3.2.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/jobs/[revision]/jobs-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.core#jobs;[3.2.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#jobs;[3.2.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/jobs/[revision]/jobs-[revision].pom
+[debug] 	public: found md file for org.eclipse.core#jobs;[3.2.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.pom (3.6.0-v20140424-0053)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.core#jobs;3.6.0-v20140424-0053!jobs.pom(pom.original) (70ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/jobs/3.6.0-v20140424-0053/jars/jobs.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.jar
+[debug] 		[3.6.0-v20140424-0053] org.eclipse.core#jobs
+[debug] 	found org.eclipse.core#jobs;3.6.0-v20140424-0053 in public
+[debug] 	[3.6.0-v20140424-0053] org.eclipse.core#jobs;[3.2.0,4.0.0)
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.4.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.equinox#registry;[3.4.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.equinox#registry;[3.4.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[3.4.0,4.0.0)
+[info] Resolving org.eclipse.equinox#registry;[3.4.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#registry;[3.4.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[3.4.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[3.4.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/registry/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.equinox#registry;[3.4.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[3.4.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/registry/[revision]/registry-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.equinox#registry;[3.4.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#registry;[3.4.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/registry/[revision]/registry-[revision].pom
+[debug] 	public: found md file for org.eclipse.equinox#registry;[3.4.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.pom (3.5.400-v20140428-1507)
+[debug] 	public: revision already resolved: org.eclipse.equinox#registry;3.5.400-v20140428-1507
+[debug] 		[3.5.400-v20140428-1507] org.eclipse.equinox#registry
+[debug] 	found org.eclipse.equinox#registry;3.5.400-v20140428-1507 in public
+[debug] 	[3.5.400-v20140428-1507] org.eclipse.equinox#registry;[3.4.0,4.0.0)
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.equinox#preferences;[3.4.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.equinox#preferences;[3.4.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
+[info] Resolving org.eclipse.equinox#preferences;[3.4.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#preferences;[3.4.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/preferences/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/preferences/[revision]/preferences-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/[revision]/preferences-[revision].pom
+[debug] 	public: found md file for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.pom (3.5.200-v20140224-1527)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.equinox#preferences;3.5.200-v20140224-1527!preferences.pom(pom.original) (89ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/preferences/3.5.200-v20140224-1527/jars/preferences.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.jar
+[debug] 		[3.5.200-v20140224-1527] org.eclipse.equinox#preferences
+[debug] 	found org.eclipse.equinox#preferences;3.5.200-v20140224-1527 in public
+[debug] 	[3.5.200-v20140224-1527] org.eclipse.equinox#preferences;[3.4.0,4.0.0)
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.core#contenttype;[3.3.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.core#contenttype;[3.3.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#contenttype;[3.3.0,4.0.0)
+[info] Resolving org.eclipse.core#contenttype;[3.3.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#contenttype;[3.3.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#contenttype;[3.3.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#contenttype;[3.3.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/contenttype/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.core#contenttype;[3.3.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#contenttype;[3.3.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/contenttype/[revision]/contenttype-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.core#contenttype;[3.3.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#contenttype;[3.3.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/contenttype/[revision]/contenttype-[revision].pom
+[debug] 	public: found md file for org.eclipse.core#contenttype;[3.3.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.pom (3.4.200-v20140207-1251)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.core#contenttype;3.4.200-v20140207-1251!contenttype.pom(pom.original) (70ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/contenttype/3.4.200-v20140207-1251/jars/contenttype.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.jar
+[debug] 		[3.4.200-v20140207-1251] org.eclipse.core#contenttype
+[debug] 	found org.eclipse.core#contenttype;3.4.200-v20140207-1251 in public
+[debug] 	[3.4.200-v20140207-1251] org.eclipse.core#contenttype;[3.3.0,4.0.0)
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->master(compile)]
+[info] Resolving org.eclipse.equinox#app;[1.0.0,) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.equinox#app;[1.0.0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#app;[1.0.0,)
+[info] Resolving org.eclipse.equinox#app;[1.0.0,) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#app;[1.0.0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#app;[1.0.0,)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#app;[1.0.0,)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/app/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.equinox#app;[1.0.0,)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#app;[1.0.0,)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/app/[revision]/app-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.equinox#app;[1.0.0,)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#app;[1.0.0,)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/app/[revision]/app-[revision].pom
+[debug] 	public: found md file for org.eclipse.equinox#app;[1.0.0,)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.pom (1.3.200-v20130910-1609)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.equinox#app;1.3.200-v20130910-1609!app.pom(pom.original) (82ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/app/1.3.200-v20130910-1609/jars/app.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.jar
+[debug] 		[1.3.200-v20130910-1609] org.eclipse.equinox#app
+[debug] 	found org.eclipse.equinox#app;1.3.200-v20130910-1609 in public
+[debug] 	[1.3.200-v20130910-1609] org.eclipse.equinox#app;[1.0.0,)
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse#text;[3.1.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse#text;[3.1.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse#text;[3.1.0,4.0.0)
+[info] Resolving org.eclipse#text;[3.1.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse#text;[3.1.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse#text;[3.1.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse#text;[3.1.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/text/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse#text;[3.1.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse#text;[3.1.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/text/[revision]/text-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse#text;[3.1.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse#text;[3.1.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/text/[revision]/text-[revision].pom
+[debug] 	public: found md file for org.eclipse#text;[3.1.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.pom (3.3.0-v20070606-0010)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.pom
+[debug] 	[SUCCESSFUL ] org.eclipse#text;3.3.0-v20070606-0010!text.pom(pom.original) (68ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/text/3.3.0-v20070606-0010/jars/text.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.jar
+[debug] 		[3.3.0-v20070606-0010] org.eclipse#text
+[debug] 	found org.eclipse#text;3.3.0-v20070606-0010 in public
+[debug] 	[3.3.0-v20070606-0010] org.eclipse#text;[3.1.0,4.0.0)
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.core#commands;[3.2.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.core#commands;[3.2.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#commands;[3.2.0,4.0.0)
+[info] Resolving org.eclipse.core#commands;[3.2.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#commands;[3.2.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.core#commands;[3.2.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#commands;[3.2.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/commands/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.core#commands;[3.2.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#commands;[3.2.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/commands/[revision]/commands-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.core#commands;[3.2.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.core#commands;[3.2.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/commands/[revision]/commands-[revision].pom
+[debug] 	public: found md file for org.eclipse.core#commands;[3.2.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.pom (3.3.0-I20070605-0010)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.core#commands;3.3.0-I20070605-0010!commands.pom(pom.original) (72ms)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/commands/3.3.0-I20070605-0010/jars/commands.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.jar
+[debug] 		[3.3.0-I20070605-0010] org.eclipse.core#commands
+[debug] 	found org.eclipse.core#commands;3.3.0-I20070605-0010 in public
+[debug] 	[3.3.0-I20070605-0010] org.eclipse.core#commands;[3.2.0,4.0.0)
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[3.3.0,4.0.0) [compile->master(compile)]
+[info] Resolving org.eclipse.equinox#common;[3.3.0,4.0.0) ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.equinox#common;[3.3.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.3.0,4.0.0)
+[info] Resolving org.eclipse.equinox#common;[3.3.0,4.0.0) ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#common;[3.3.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.3.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.3.0,4.0.0)
+[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/common/[revision]/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.equinox#common;[3.3.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.3.0,4.0.0)
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/common/[revision]/common-[revision].pom
+[debug] 	jcenter: no ivy file found for org.eclipse.equinox#common;[3.3.0,4.0.0)
+[debug] default-cache: no cached resolved revision for org.eclipse.equinox#common;[3.3.0,4.0.0)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/common/[revision]/common-[revision].pom
+[debug] 	public: found md file for org.eclipse.equinox#common;[3.3.0,4.0.0)
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.pom (3.6.200-v20130402-1505)
+[debug] 	public: revision already resolved: org.eclipse.equinox#common;3.6.200-v20130402-1505
+[debug] 		[3.6.200-v20130402-1505] org.eclipse.equinox#common
+[debug] 	found org.eclipse.equinox#common;3.6.200-v20130402-1505 in public
+[debug] 	[3.6.200-v20130402-1505] org.eclipse.equinox#common;[3.3.0,4.0.0)
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [runtime]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [test]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [runtime]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [compile-internal]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [optional]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [runtime-internal]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [runtime]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [test-internal]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [test]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [runtime]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->default(compile)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#resources;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#expressions;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#expressions;[3.1.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#jobs;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#jobs;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#registry;[0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#preferences;[3.4.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.core#contenttype;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#preferences;[3.4.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#contenttype;[3.3.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#runtime;[3.3.0,4.0.0)->org.eclipse.equinox#app;[1.0.0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.equinox#app;[1.0.0,)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse.equinox#registry;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#filesystem;[1.0.0,2.0.0)->org.eclipse#osgi;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#resources;[3.2.0,4.0.0)->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#runtime;[3.3.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse.core#filesystem;[1.0.0,2.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.core#commands;[3.2.0,4.0.0) [runtime->compile]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[3.2.0,4.0.0) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.core#commands;[3.2.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [optional]
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#finalproject_2.12;1.0 [scala-tool]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-compiler;2.12.0 [scala-tool->default]
+[info] Resolving org.scala-lang#scala-compiler;2.12.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.0 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.0
+[debug] 	found org.scala-lang#scala-compiler;2.12.0 in sbt-chain
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-compiler;2.12.0 [scala-tool->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-compiler;2.12.0 [scala-tool->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-reflect;2.12.0 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.12.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.0
+[debug] 	found org.scala-lang#scala-reflect;2.12.0 in sbt-chain
+[debug] 	[2.12.0] org.scala-lang#scala-reflect;2.12.0
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-reflect;2.12.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.12.0->org.scala-lang#scala-library;2.12.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-reflect;2.12.0 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-reflect;2.12.0 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.12.0->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.12.0->org.scala-lang#scala-library;2.12.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->master(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.12;1.0.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.5 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.5->org.scala-lang#scala-library;2.12.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.5->org.scala-lang#scala-library;2.12.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [compile->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.5->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.5->org.scala-lang#scala-library;2.12.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-library;2.12.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-reflect;2.12.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang#scala-reflect;2.12.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [runtime->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-compiler;2.12.0 [scala-tool->master]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-compiler;2.12.0 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->jline#jline;2.14.1 [optional->master(compile)]
+[info] Resolving jline#jline;2.14.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.1 {optional=[compile(*), master(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.14.1
+[debug] 	found jline#jline;2.14.1 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.0->jline#jline;2.14.1 [optional->compile(*)]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [scala-tool->default]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [scala-tool->runtime]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [scala-tool->compile]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [scala-tool->master]
+[debug] == resolving dependencies default#finalproject_2.12;1.0->org.scala-lang#scala-library;2.12.0 [scala-tool->optional(default)]
+[debug] circular dependency found: org.scala-lang#scala-compiler;2.12.0->org.scala-lang.modules#scala-xml_2.12;1.0.5->...
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.0!scala-library.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/jdt/core/3.3.0-v_771/core-3.3.0-v_771.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jdt#core;3.3.0-v_771!core.jar (2444ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#resources;3.3.0-v20070604!resources.jar (232ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/runtime/3.10.0-v20140318-2214/runtime-3.10.0-v20140318-2214.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#runtime;3.10.0-v20140318-2214!runtime.jar (107ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/filesystem/1.1.0-v20070606/filesystem-1.1.0-v20070606.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#filesystem;1.1.0-v20070606!filesystem.jar (90ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/text/3.3.0-v20070606-0010/text-3.3.0-v20070606-0010.jar
+[info] 	[SUCCESSFUL ] org.eclipse#text;3.3.0-v20070606-0010!text.jar (119ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/expressions/3.3.0-v20070606-0010/expressions-3.3.0-v20070606-0010.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#expressions;3.3.0-v20070606-0010!expressions.jar (92ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/equinox/common/3.6.200-v20130402-1505/common-3.6.200-v20130402-1505.jar
+[info] 	[SUCCESSFUL ] org.eclipse.equinox#common;3.6.200-v20130402-1505!common.jar (95ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/equinox/registry/3.5.400-v20140428-1507/registry-3.5.400-v20140428-1507.jar
+[info] 	[SUCCESSFUL ] org.eclipse.equinox#registry;3.5.400-v20140428-1507!registry.jar (95ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/osgi/3.10.0-v20140606-1445/osgi-3.10.0-v20140606-1445.jar
+[info] 	[SUCCESSFUL ] org.eclipse#osgi;3.10.0-v20140606-1445!osgi.jar (216ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/jobs/3.6.0-v20140424-0053/jobs-3.6.0-v20140424-0053.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#jobs;3.6.0-v20140424-0053!jobs.jar (102ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/3.5.200-v20140224-1527/preferences-3.5.200-v20140224-1527.jar
+[info] 	[SUCCESSFUL ] org.eclipse.equinox#preferences;3.5.200-v20140224-1527!preferences.jar (94ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/contenttype/3.4.200-v20140207-1251/contenttype-3.4.200-v20140207-1251.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#contenttype;3.4.200-v20140207-1251!contenttype.jar (91ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/equinox/app/1.3.200-v20130910-1609/app-1.3.200-v20130910-1609.jar
+[info] 	[SUCCESSFUL ] org.eclipse.equinox#app;1.3.200-v20130910-1609!app.jar (87ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/core/commands/3.3.0-I20070605-0010/commands-3.3.0-I20070605-0010.jar
+[info] 	[SUCCESSFUL ] org.eclipse.core#commands;3.3.0-I20070605-0010!commands.jar (94ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.0!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.0!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar
+[debug] :: resolution report :: resolve 9625ms :: artifacts dl 3984ms
+[debug] 	report for default#finalproject_2.12;1.0 compile produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-compile.xml
+[debug] 	report for default#finalproject_2.12;1.0 runtime produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-runtime.xml
+[debug] 	report for default#finalproject_2.12;1.0 test produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-test.xml
+[debug] 	report for default#finalproject_2.12;1.0 provided produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-provided.xml
+[debug] 	report for default#finalproject_2.12;1.0 optional produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-optional.xml
+[debug] 	report for default#finalproject_2.12;1.0 compile-internal produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-compile-internal.xml
+[debug] 	report for default#finalproject_2.12;1.0 runtime-internal produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-runtime-internal.xml
+[debug] 	report for default#finalproject_2.12;1.0 test-internal produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-test-internal.xml
+[debug] 	report for default#finalproject_2.12;1.0 plugin produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-plugin.xml
+[debug] 	report for default#finalproject_2.12;1.0 sources produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-sources.xml
+[debug] 	report for default#finalproject_2.12;1.0 docs produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-docs.xml
+[debug] 	report for default#finalproject_2.12;1.0 pom produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-pom.xml
+[debug] 	report for default#finalproject_2.12;1.0 scala-tool produced in /Users/samrudhinayak/FinalProject/target/resolution-cache/reports/default-finalproject_2.12-scala-tool.xml
+[debug] 	resolve done (9625ms resolve - 3984ms download)
+[info] Done updating.
