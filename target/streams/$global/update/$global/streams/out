@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/}ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3...
+[info] Updating {file:/Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/}ahmed_eric_samrudhi_fp...
 [warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
 [warn]  * org.scalatest:scalatest_2.11:(2.2.4, 2.2.5)
 [debug] :: resolving dependencies :: homework3#homework3_2.11;1.0
@@ -9,7 +9,7 @@
 [debug] == resolving dependencies for homework3#homework3_2.11;1.0 [compile]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d3217cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48833182
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -420,11 +420,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#resources;[3.2.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#resources;[3.2.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#resources;[3.2.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/resources/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.core/resources/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.core#resources;[3.2.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.core#resources;[3.2.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/resources/[revision]/resources-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.core#resources;[3.2.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#resources;[3.2.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/resources/[revision]/resources-[revision].pom
 [debug] 	public: found md file for org.eclipse.core#resources;[3.2.0,4.0.0)
@@ -441,11 +438,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#expressions;[3.1.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#expressions;[3.1.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#expressions;[3.1.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/expressions/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.core/expressions/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.core#expressions;[3.1.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.core#expressions;[3.1.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/expressions/[revision]/expressions-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.core#expressions;[3.1.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#expressions;[3.1.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/expressions/[revision]/expressions-[revision].pom
 [debug] 	public: found md file for org.eclipse.core#expressions;[3.1.0,4.0.0)
@@ -464,11 +458,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#filesystem;[1.0.0,2.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#filesystem;[1.0.0,2.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#filesystem;[1.0.0,2.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/filesystem/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.core/filesystem/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.core#filesystem;[1.0.0,2.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.core#filesystem;[1.0.0,2.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/filesystem/[revision]/filesystem-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.core#filesystem;[1.0.0,2.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#filesystem;[1.0.0,2.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/filesystem/[revision]/filesystem-[revision].pom
 [debug] 	public: found md file for org.eclipse.core#filesystem;[1.0.0,2.0.0)
@@ -485,11 +476,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#common;[0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[0,)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[0,)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/common/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.equinox/common/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.equinox#common;[0,)
-[debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[0,)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/common/[revision]/common-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.equinox#common;[0,)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[0,)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/common/[revision]/common-[revision].pom
 [debug] 	public: found md file for org.eclipse.equinox#common;[0,)
@@ -506,11 +494,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#registry;[0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#registry;[0,)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#registry;[0,)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/registry/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.equinox/registry/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.equinox#registry;[0,)
-[debug] default-cache: cached resolved revision expired for org.eclipse.equinox#registry;[0,)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/registry/[revision]/registry-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.equinox#registry;[0,)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#registry;[0,)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/registry/[revision]/registry-[revision].pom
 [debug] 	public: found md file for org.eclipse.equinox#registry;[0,)
@@ -531,11 +516,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse#osgi;[0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse#osgi;[0,)
 [debug] default-cache: cached resolved revision expired for org.eclipse#osgi;[0,)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/osgi/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse/osgi/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse#osgi;[0,)
-[debug] default-cache: cached resolved revision expired for org.eclipse#osgi;[0,)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/osgi/[revision]/osgi-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse#osgi;[0,)
 [debug] default-cache: cached resolved revision expired for org.eclipse#osgi;[0,)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/osgi/[revision]/osgi-[revision].pom
 [debug] 	public: found md file for org.eclipse#osgi;[0,)
@@ -573,11 +555,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#runtime;[3.3.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#runtime;[3.3.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#runtime;[3.3.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/runtime/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.core/runtime/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.core#runtime;[3.3.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.core#runtime;[3.3.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/runtime/[revision]/runtime-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.core#runtime;[3.3.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#runtime;[3.3.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/runtime/[revision]/runtime-[revision].pom
 [debug] 	public: found md file for org.eclipse.core#runtime;[3.3.0,4.0.0)
@@ -594,11 +573,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse#osgi;[3.7.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse#osgi;[3.7.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse#osgi;[3.7.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/osgi/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse/osgi/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse#osgi;[3.7.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse#osgi;[3.7.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/osgi/[revision]/osgi-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse#osgi;[3.7.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse#osgi;[3.7.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/osgi/[revision]/osgi-[revision].pom
 [debug] 	public: found md file for org.eclipse#osgi;[3.7.0,4.0.0)
@@ -615,11 +591,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#common;[3.6.100,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[3.6.100,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[3.6.100,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/common/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.equinox/common/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.equinox#common;[3.6.100,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[3.6.100,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/common/[revision]/common-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.equinox#common;[3.6.100,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[3.6.100,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/common/[revision]/common-[revision].pom
 [debug] 	public: found md file for org.eclipse.equinox#common;[3.6.100,4.0.0)
@@ -636,11 +609,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#jobs;[3.2.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#jobs;[3.2.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#jobs;[3.2.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/jobs/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.core/jobs/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.core#jobs;[3.2.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.core#jobs;[3.2.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/jobs/[revision]/jobs-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.core#jobs;[3.2.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#jobs;[3.2.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/jobs/[revision]/jobs-[revision].pom
 [debug] 	public: found md file for org.eclipse.core#jobs;[3.2.0,4.0.0)
@@ -661,11 +631,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#registry;[3.4.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#registry;[3.4.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#registry;[3.4.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/registry/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.equinox/registry/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.equinox#registry;[3.4.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.equinox#registry;[3.4.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/registry/[revision]/registry-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.equinox#registry;[3.4.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#registry;[3.4.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/registry/[revision]/registry-[revision].pom
 [debug] 	public: found md file for org.eclipse.equinox#registry;[3.4.0,4.0.0)
@@ -682,11 +649,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#preferences;[3.4.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/preferences/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.equinox/preferences/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/preferences/[revision]/preferences-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/preferences/[revision]/preferences-[revision].pom
 [debug] 	public: found md file for org.eclipse.equinox#preferences;[3.4.0,4.0.0)
@@ -707,11 +671,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#contenttype;[3.3.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#contenttype;[3.3.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#contenttype;[3.3.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/contenttype/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.core/contenttype/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.core#contenttype;[3.3.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.core#contenttype;[3.3.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/contenttype/[revision]/contenttype-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.core#contenttype;[3.3.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#contenttype;[3.3.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/contenttype/[revision]/contenttype-[revision].pom
 [debug] 	public: found md file for org.eclipse.core#contenttype;[3.3.0,4.0.0)
@@ -740,11 +701,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#app;[1.0.0,) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#app;[1.0.0,)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#app;[1.0.0,)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/app/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.equinox/app/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.equinox#app;[1.0.0,)
-[debug] default-cache: cached resolved revision expired for org.eclipse.equinox#app;[1.0.0,)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/app/[revision]/app-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.equinox#app;[1.0.0,)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#app;[1.0.0,)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/app/[revision]/app-[revision].pom
 [debug] 	public: found md file for org.eclipse.equinox#app;[1.0.0,)
@@ -805,11 +763,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse#text;[3.1.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse#text;[3.1.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse#text;[3.1.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse/text/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse/text/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse#text;[3.1.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse#text;[3.1.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/text/[revision]/text-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse#text;[3.1.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse#text;[3.1.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/text/[revision]/text-[revision].pom
 [debug] 	public: found md file for org.eclipse#text;[3.1.0,4.0.0)
@@ -826,11 +781,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.core#commands;[3.2.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#commands;[3.2.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#commands;[3.2.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.core/commands/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.core/commands/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.core#commands;[3.2.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.core#commands;[3.2.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/core/commands/[revision]/commands-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.core#commands;[3.2.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.core#commands;[3.2.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/core/commands/[revision]/commands-[revision].pom
 [debug] 	public: found md file for org.eclipse.core#commands;[3.2.0,4.0.0)
@@ -850,11 +802,8 @@
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.equinox#common;[3.3.0,4.0.0) {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[3.3.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[3.3.0,4.0.0)
-[debug] 		tried /Users/samrudhinayak/.ivy2/local/org.eclipse.equinox/common/[revision]/ivys/ivy.xml
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/org.eclipse.equinox/common/[revision]/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.eclipse.equinox#common;[3.3.0,4.0.0)
-[debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[3.3.0,4.0.0)
-[debug] 		tried https://jcenter.bintray.com/org/eclipse/equinox/common/[revision]/common-[revision].pom
-[debug] 	jcenter: no ivy file found for org.eclipse.equinox#common;[3.3.0,4.0.0)
 [debug] default-cache: cached resolved revision expired for org.eclipse.equinox#common;[3.3.0,4.0.0)
 [debug] 		tried https://repo1.maven.org/maven2/org/eclipse/equinox/common/[revision]/common-[revision].pom
 [debug] 	public: found md file for org.eclipse.equinox#common;[3.3.0,4.0.0)
@@ -881,6 +830,22 @@
 [debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.jdt#core;3.3.0-v_771->org.eclipse#text;[3.1.0,4.0.0) [runtime->compile]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-swing;2.11.0-M7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-swing;2.11.0-M7 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-swing;2.11.0-M7
+[debug] 	found org.scala-lang#scala-swing;2.11.0-M7 in sbt-chain
+[debug] 	[2.11.0-M7] org.scala-lang#scala-swing;2.11.0-M7
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->runtime]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for homework3#homework3_2.11;1.0 [runtime]
 [debug] == resolving dependencies for homework3#homework3_2.11;1.0 [compile]
@@ -1281,6 +1246,17 @@
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->default(compile)]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->runtime]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for homework3#homework3_2.11;1.0 [test]
 [debug] == resolving dependencies for homework3#homework3_2.11;1.0 [runtime]
@@ -1681,6 +1657,17 @@
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->default(compile)]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->runtime]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->master]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.5 ...
@@ -2155,6 +2142,17 @@
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->default(compile)]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->runtime]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->master]
 [debug] == resolving dependencies for homework3#homework3_2.11;1.0 [optional]
 [debug] == resolving dependencies for homework3#homework3_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -2558,6 +2556,17 @@
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->default(compile)]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->runtime]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->master]
 [debug] == resolving dependencies for homework3#homework3_2.11;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for homework3#homework3_2.11;1.0 [test-internal]
@@ -2968,6 +2977,17 @@
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse#text;[3.1.0,4.0.0)->org.eclipse.equinox#common;[0,) [runtime->compile]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.eclipse.jdt#core;3.3.0-v_771 [compile->master]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->default(compile)]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->runtime]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.0-M7 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-swing;2.11.0-M7->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->master]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->runtime]
@@ -3085,8 +3105,22 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->master(compile)]
 [info] Resolving jline#jline;2.12.1 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
-[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
-[debug] 	found jline#jline;2.12.1 in sbt-chain
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/jline/jline/2.12.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for jline#jline;2.12.1
+[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom
+[debug] 	public: found md file for jline#jline;2.12.1
+[debug] 		=> https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom (2.12.1)
+[debug] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom
+[debug] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.pom(pom.original) (30ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 	found jline#jline;2.12.1 in public
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.8->jline#jline;2.12.1 [optional->compile(*)]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default]
 [debug] == resolving dependencies homework3#homework3_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
@@ -3101,6 +3135,7 @@
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.12!akka-testkit_2.11.jar
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.8!junit-interface.jar
 [debug] 	[NOT REQUIRED] org.eclipse.jdt#core;3.3.0-v_771!core.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-swing;2.11.0-M7!scala-swing.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core-experimental_2.11;2.0.1!akka-http-core-experimental_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing-experimental_2.11;2.0.1!akka-parsing-experimental_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream-experimental_2.11;2.0.1!akka-stream-experimental_2.11.jar
@@ -3144,19 +3179,19 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 6285ms :: artifacts dl 64ms
-[debug] 	report for homework3#homework3_2.11;1.0 compile produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-compile.xml
-[debug] 	report for homework3#homework3_2.11;1.0 runtime produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-runtime.xml
-[debug] 	report for homework3#homework3_2.11;1.0 test produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-test.xml
-[debug] 	report for homework3#homework3_2.11;1.0 provided produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-provided.xml
-[debug] 	report for homework3#homework3_2.11;1.0 optional produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-optional.xml
-[debug] 	report for homework3#homework3_2.11;1.0 compile-internal produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-compile-internal.xml
-[debug] 	report for homework3#homework3_2.11;1.0 runtime-internal produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-runtime-internal.xml
-[debug] 	report for homework3#homework3_2.11;1.0 test-internal produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-test-internal.xml
-[debug] 	report for homework3#homework3_2.11;1.0 plugin produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-plugin.xml
-[debug] 	report for homework3#homework3_2.11;1.0 sources produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-sources.xml
-[debug] 	report for homework3#homework3_2.11;1.0 docs produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-docs.xml
-[debug] 	report for homework3#homework3_2.11;1.0 pom produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-pom.xml
-[debug] 	report for homework3#homework3_2.11;1.0 scala-tool produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/target/resolution-cache/reports/homework3-homework3_2.11-scala-tool.xml
-[debug] 	resolve done (6285ms resolve - 64ms download)
+[debug] :: resolution report :: resolve 2855ms :: artifacts dl 27ms
+[debug] 	report for homework3#homework3_2.11;1.0 compile produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-compile.xml
+[debug] 	report for homework3#homework3_2.11;1.0 runtime produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-runtime.xml
+[debug] 	report for homework3#homework3_2.11;1.0 test produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-test.xml
+[debug] 	report for homework3#homework3_2.11;1.0 provided produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-provided.xml
+[debug] 	report for homework3#homework3_2.11;1.0 optional produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-optional.xml
+[debug] 	report for homework3#homework3_2.11;1.0 compile-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-compile-internal.xml
+[debug] 	report for homework3#homework3_2.11;1.0 runtime-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-runtime-internal.xml
+[debug] 	report for homework3#homework3_2.11;1.0 test-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-test-internal.xml
+[debug] 	report for homework3#homework3_2.11;1.0 plugin produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-plugin.xml
+[debug] 	report for homework3#homework3_2.11;1.0 sources produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-sources.xml
+[debug] 	report for homework3#homework3_2.11;1.0 docs produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-docs.xml
+[debug] 	report for homework3#homework3_2.11;1.0 pom produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-pom.xml
+[debug] 	report for homework3#homework3_2.11;1.0 scala-tool produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3_2.11-scala-tool.xml
+[debug] 	resolve done (2855ms resolve - 27ms download)
 [info] Done updating.

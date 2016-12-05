@@ -4,7 +4,7 @@
 		module="homework3_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161204170256"
+		publication="20161204213233"
 	>
 		<description>
 		Homework3
@@ -42,5 +42,6 @@
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.5" conf="test->default(compile)"/>
 		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
 		<dependency org="org.eclipse.jdt" name="core" rev="3.3.0-v_771" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-swing" rev="2.11.0-M7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

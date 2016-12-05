@@ -1,29 +1,29 @@
-[info] Updating {file:/Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/}ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build...
-[debug] :: resolving dependencies :: default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/}ahmed_eric_samrudhi_fp-build...
+[debug] :: resolving dependencies :: default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e5045ba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5866f41c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
@@ -147,8 +147,28 @@
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->default(compile)]
 [info] Resolving jline#jline;2.11 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.11 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: jline#jline;2.11
-[debug] 	found jline#jline;2.11 in sbt-chain
+[info] Resolving jline#jline;2.11 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: jline#jline;2.11 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/jline/jline/2.11/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/jline/jline/2.11/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for jline#jline;2.11
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/jline/jline/2.11/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/jline/jline/2.11/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for jline#jline;2.11
+[debug] 		tried /Users/ahmedmetwally/.ivy2/local/jline/jline/2.11/ivys/ivy.xml
+[debug] 	local: no ivy file found for jline#jline;2.11
+[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
+[debug] 	public: found md file for jline#jline;2.11
+[debug] 		=> https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom (2.11)
+[debug] downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
+[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (29ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 	found jline#jline;2.11 in public
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->master]
@@ -709,17 +729,17 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1182,22 +1202,22 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1660,18 +1680,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
@@ -1689,8 +1709,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}
@@ -1703,11 +1723,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
@@ -1766,19 +1786,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1488ms :: artifacts dl 225ms
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT compile produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-compile.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT runtime produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-runtime.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT test produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-test.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT provided produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-provided.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT optional produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-optional.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT compile-internal produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-compile-internal.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT runtime-internal produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-runtime-internal.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT test-internal produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-test-internal.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT plugin produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-plugin.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT sources produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-sources.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT docs produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-docs.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT pom produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-pom.xml
-[debug] 	report for default#ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build;0.1-SNAPSHOT scala-tool produced in /Users/samrudhinayak/Desktop/HW3_Test/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3/project/target/resolution-cache/reports/default-ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3-build-scala-tool.xml
-[debug] 	resolve done (1488ms resolve - 225ms download)
+[debug] :: resolution report :: resolve 1774ms :: artifacts dl 26ms
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT compile produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-compile.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT runtime produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-runtime.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT test produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-test.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT provided produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-provided.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT optional produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-optional.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT compile-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-compile-internal.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT runtime-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-runtime-internal.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT test-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-test-internal.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT plugin produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-plugin.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT sources produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-sources.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT docs produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-docs.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT pom produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-pom.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT scala-tool produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-scala-tool.xml
+[debug] 	resolve done (1774ms resolve - 26ms download)
 [info] Done updating.
