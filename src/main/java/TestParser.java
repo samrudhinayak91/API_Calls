@@ -42,7 +42,7 @@ public class TestParser {
         //create AST
         CompilationUnit cu = (CompilationUnit) parser.createAST(null);
         cu.getCommentList();
-        System.out.println(cu.getCommentList().size());
+        //System.out.println(cu.getCommentList().size());
         //System.out.println(cu.getExtendedLength(node));
         //visitor to visit each node
         cu.accept(visitor);
