@@ -1,5 +1,5 @@
 /**
- * Created by samrudhinayak on 11/29/16.
+ * Created by samrudhinayak on 12/4/16.
  */
 import org.eclipse.jdt.core.dom.*;
 
@@ -68,7 +68,7 @@ public class Visitor extends ASTVisitor {
     public boolean visit(BooleanLiteral node) {
         operands=operands+1;
         this.names.add("boolean");
-        System.out.println("Hello  " +node.getParent().getNodeType());
+        //System.out.println("Hello  " +node.getParent().getNodeType());
         return true;
     }
     //gets assignment
@@ -132,7 +132,13 @@ public class Visitor extends ASTVisitor {
     //gets if statements
     public boolean visit(IfStatement node) {
         this.snames.add("if");
-        System.out.println("Here " +node.getParent().getNodeType());
+        //System.out.println(node.getParent());
+        int s=node.getParent().getNodeType();
+        if(s==8) {
+//            Node par=node.getParent();
+//            System.out.println(node.getParent().get)
+        }
+        //System.out.println("Here " +node.getParent().getNodeType());
 
         operators=operators+1;
         return true;
@@ -140,7 +146,7 @@ public class Visitor extends ASTVisitor {
     //gets while statements
     public boolean visit(WhileStatement node) {
         //System.out.println(node.getParent().toString());
-        System.out.println( "and " +node.getParent().getNodeType());
+        //System.out.println( "and " +node.getParent().getNodeType());
         //operators=operators+1;
         this.snames.add("while");
         return true;
@@ -150,4 +156,5 @@ public class Visitor extends ASTVisitor {
         return true;
     }
 }
+
 
