@@ -23,3 +23,6 @@ libraryDependencies += "junit" % "junit" % "4.12" % "test"
 
 // https://mvnrepository.com/artifact/org.eclipse.jdt/core
 libraryDependencies += "org.eclipse.jdt" % "core" % "3.3.0-v_771"
+
+// https://mvnrepository.com/artifact/org.scala-lang/scala-swing
+libraryDependencies += "org.scala-lang" % "scala-swing" % "2.11.0-M7"
