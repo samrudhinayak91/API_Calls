@@ -96,6 +96,8 @@ object ScalaSwingGUIClass extends SimpleSwingApplication {
   def doDownloading(): Unit = {
     Console.println(getKeyword())
 
+
+    // send the keyword to form the HTTP request
     val r= new Request()
     r.fetchKeyword(getKeyword())
   }

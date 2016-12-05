@@ -153,6 +153,7 @@ public class Visitor extends ASTVisitor {
     }
     public boolean visit(MethodInvocation node) {
         summer = summer +1;
+        //node.getClass();
         return true;
     }
 }
