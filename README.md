@@ -1,24 +1,25 @@
-#  Recommending actions to GitHub developers based on changes made between two versions of the application
+#  Getting the statistics of API calls from GitHub repositories
 
 
-This project aims at making recommendations to GitHub developers based on the differences between two versions of the same application. We use the REST APIs of the akka toolkit as well as the actor pattern to send and receive messages between actors. It also uses gitHub APIs to stream open source applications from GitHub and clone the repositories into our local directories. This project uses Understand® (from Scitools) APIs to build dependency graphs for two versions of the applications so that we may compare the versions for differences and use those differences to suggest actions to the developers. You can read about the above mentioned resources through the links given below:
+This project aims at finding what percentage of the method calls from GitHub repositories are from java.util, java.lang and java.io. We use the REST APIs of the akka toolkit as well as the actor pattern to send and receive messages between actors. It also uses GitHub APIs to stream open source applications from GitHub and clone the repositories into our local directories. We then build an abstract syntax tree of the nodes in the code of the downloaded repositories. We have used the search engine API of the JDT to find the calls made to java.util, java.lang and java.io and compare them to the total number of methods invoked to get the percentage of total calls that come from those libraries. Ours is a console based App and we have used the Scala Swing APIs to build the GUI. You can read about the above mentioned resources through the links given below:
 
 * Akka toolkit : http://akka.io
-* Dependency Graph: https://en.wikipedia.org/wiki/Dependency_graph
-* Understand® APIs: https://scitools.com/
+* AST : https://en.wikipedia.org/wiki/Abstract_syntax_tree
 * GitHub APIs: https://developer.github.com/v3/
+* Scala Swing APIs: http://www.scala-lang.org/api/rc2/scala/swing/package.html
+
 
 ## Inputs:
 
-* The language for your test projects (Example: java)
-* A keyword to search for (Example: "square" as the keyword will look for all projects within the github repository with the word "square" in it's name)
+* A keyword to search for (Example: "dna" as the keyword will look for all projects within the GitHub repository with the word "dna" in it's name)
 
-## Output:
+## Output :
 
-* List of all methods that added to the new version.
-* List of all the methods that removed from the old version.
+Once you click on "Download", the repositories with the keyword will be downloaded and the downloaded repositories will be analyzed. The output of the analysis is stored in a text file in the folders of the cloned repositories. You then hit "Refresh" to get the list of downloaded repositories.
 
-These methods are the one that should be tested.
+To get the statistics of the API call percentages, you hit the "Statistics" button which will populate the statistics onto the console window.
+
+To delete any of the repositories, click on the "Delete folder and Contents" button at the bottom of the screen and hit "Refresh" again to see the updated list of repositories.
 
 
 ## Getting Started
@@ -33,26 +34,10 @@ These methods are the one that should be tested.
 
 Clone the project to your local repository:
 ```
-git clone https://samrudhinayak@bitbucket.org/ametwally/ahmed_metwally_samrudhi_nayak_eric_wolfson_hw3.git
+git clone 
+https://samrudhinayak@bitbucket.org/samrudhinayak/ahmed_eric_samrudhi_fp.git
 ```
-
-
-Copy the Understand jar file (in my case it is com.scitools.understand.plugin_1.1.3.jar) to the lib directory.  
-
-
-
-Configure environmental variables for Understand. Example, for Linux users: open the ~/.bashrc and add the following. You need to replace [path-to-understand] by the absolute path of the directory where scitools package exists. 
-
-
-```
-export PATH=$PATH:[path-to-understand]/scitools/bin/linux64
-export CLASSPATH=$CLASSPATH:[path-to-understand]/scitools/bin/linux64/Java/com.scitools.understand.plugin_1.1.3.jar
-
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:[path-to-understand]/scitools/bin/linux64/
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/usr/java/jre1.8.0_91/lib/amd64/"
-```
-
-
+ 
 
 To make sure that you build the code from scratch, navigate to the project's main directory, remove any pre-built files:
 ```
@@ -66,8 +51,7 @@ sbt compile
 ```
 
 
-
-There are a couple of test cases implemented in this program. These test cases ensure that every method works as expected. You can test them using:
+There are a few test cases implemented in this program. These test cases ensure that every method works as expected. You can test them using:
 ```
 sbt "test-only "
 ```
@@ -79,19 +63,17 @@ sbt run
 ```
 
 
-Then the program should ask you to enter a language of your choice and a keyword to help narrow down the search for applications from github.
-```
-* Enter the language: java
-* Enter the keyword: dna
-```
+Then the program should ask you to enter a keyword to narrow down the search for applications from GitHub and download the repositories to your local system.
 
 
-The program should then use the keyword and language preferences to clone the repositories matching the language and keyword descriptions into the local repository, build dependency graphs and calculate the differences between different versions of the application based on the dependency graphs.  
+
+The program then uses the keyword to clone the repositories matching the keyword description into the local repository, parse through the AST to calculate the total number of methods invoked and the number of calls from the java.util, java.io and java.lang libraries. The cloning takes a few seconds since we have given a limit of 6 repositories that need to be cloned for each keyword that you enter. It finally gets the statistics and stores it in a text file in the directory containing the cloned repository. When you click on the Statistics button, these statistics from the text file will be displayed on the console. The user can also delete any repository by clicking on the name in the drop down menu and clicking on the delete button.
 
 
 ### Implementation Notes:
 
 * We have used AKKA HTTP to make requests to get the JSON object from the URLs obtained according to a particular language and keyword pair input by the user. We then parse through the JSON object to get the clone_url from which we can clone the application into our local repository.
-* We use GitHub developer APIs to clone two versions of the same application into our local machine.
-* We then use Understand APIs to build the udb files from which to build dependency graphs on a function level.
-* The dependency graphs of the different versions are then compared to obtain the differences between the versions which are given out as a recommendation to the developers so they may test the functions that have been added since the previous version of the application.
+* We use GitHub developer APIs to clone the repository containing java applications with the keyword input by the user.
+* We then build the abstract syntax tree for each of the repositories and parse through it to get the number of method invocations and the method declarations from java.util, java.io and java.lang. We have used the search engine API from the JDT to achieve this functionality.
+* We have used the Scala Swing APIs to create the GUI.
+* All the test cases are written using JUnit and scala test libraries.
