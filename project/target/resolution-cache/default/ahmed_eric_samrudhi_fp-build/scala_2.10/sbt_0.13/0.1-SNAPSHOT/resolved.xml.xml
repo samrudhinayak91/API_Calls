@@ -4,7 +4,7 @@
 		module="ahmed_eric_samrudhi_fp-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161204213214"
+		publication="20161209115705"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

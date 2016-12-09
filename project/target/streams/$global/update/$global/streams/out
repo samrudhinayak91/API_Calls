@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/}ahmed_eric_samrudhi_fp-build...
+[info] Updating {file:/Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/}ahmed_eric_samrudhi_fp-build...
 [debug] :: resolving dependencies :: default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5866f41c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@771bbee1
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -164,7 +164,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
-[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (29ms)
+[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (26ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -1786,19 +1786,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1774ms :: artifacts dl 26ms
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT compile produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-compile.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT runtime produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-runtime.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT test produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-test.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT provided produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-provided.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT optional produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-optional.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT compile-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-compile-internal.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT runtime-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-runtime-internal.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT test-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-test-internal.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT plugin produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-plugin.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT sources produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-sources.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT docs produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-docs.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT pom produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-pom.xml
-[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT scala-tool produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-scala-tool.xml
-[debug] 	resolve done (1774ms resolve - 26ms download)
+[debug] :: resolution report :: resolve 2810ms :: artifacts dl 23ms
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT compile produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-compile.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT runtime produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-runtime.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT test produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-test.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT provided produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-provided.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT optional produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-optional.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT compile-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-compile-internal.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT runtime-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-runtime-internal.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT test-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-test-internal.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT plugin produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-plugin.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT sources produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-sources.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT docs produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-docs.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT pom produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-pom.xml
+[debug] 	report for default#ahmed_eric_samrudhi_fp-build;0.1-SNAPSHOT scala-tool produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/project/target/resolution-cache/reports/default-ahmed_eric_samrudhi_fp-build-scala-tool.xml
+[debug] 	resolve done (2810ms resolve - 23ms download)
 [info] Done updating.

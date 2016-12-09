@@ -4,7 +4,7 @@
 		module="homework3$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161109180345"
+		publication="20161209115730"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

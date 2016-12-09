@@ -10,7 +10,7 @@
 [debug] == resolving dependencies for homework3#homework3$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68acec73
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b69d406
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -19,7 +19,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.1 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-http-experimental_2.11;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b66b75c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6073ca64
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-experimental_2.11;2.0.1
 [debug] 	found com.typesafe.akka#akka-http-experimental_2.11;2.0.1 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.1 [compile->runtime]
@@ -27,7 +27,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;2.0.1 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.1 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-http-core-experimental_2.11;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8ebe56b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d6299ff
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-core-experimental_2.11;2.0.1
 [debug] 	found com.typesafe.akka#akka-http-core-experimental_2.11;2.0.1 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.1 [compile->runtime]
@@ -35,7 +35,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;2.0.1 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;2.0.1 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-parsing-experimental_2.11;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76c1ac3c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f542b81
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-parsing-experimental_2.11;2.0.1
 [debug] 	found com.typesafe.akka#akka-parsing-experimental_2.11;2.0.1 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;2.0.1 [compile->runtime]
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;2.0.1 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;2.0.1 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-stream-experimental_2.11;2.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c5493d5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b8b9bbf
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream-experimental_2.11;2.0.1
 [debug] 	found com.typesafe.akka#akka-stream-experimental_2.11;2.0.1 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;2.0.1 [compile->runtime]
@@ -51,7 +51,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;2.0.1 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.1.0 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-akka_2.11;0.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@366c71fc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4328086c
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-akka_2.11;0.1.0
 [debug] 	found com.typesafe#ssl-config-akka_2.11;0.1.0 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.1.0 [compile->runtime]
@@ -59,7 +59,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe#ssl-config-akka_2.11;0.1.0 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.1.0 [compile->default(compile)]
 [info] Resolving com.typesafe#ssl-config-core_2.11;0.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a52ad5f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c75f1d8
 [debug] sbt-chain: module revision found in cache: com.typesafe#ssl-config-core_2.11;0.1.0
 [debug] 	found com.typesafe#ssl-config-core_2.11;0.1.0 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.1.0 [compile->runtime]
@@ -67,7 +67,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe#ssl-config-core_2.11;0.1.0 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e831360
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53ac9aa3
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime]
@@ -75,7 +75,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
 [info] Resolving org.reactivestreams#reactive-streams;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31534d13
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d568f4b
 [debug] sbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.0
 [debug] 	found org.reactivestreams#reactive-streams;1.0.0 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
@@ -83,7 +83,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.0-M1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.4.0-M1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@573bfcb5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@eb5c8ab
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.4.0-M1
 [debug] 	found com.typesafe.play#play-json_2.11;2.4.0-M1 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.0-M1 [compile->runtime]
@@ -91,7 +91,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-json_2.11;2.4.0-M1 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.0-M1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.4.0-M1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23ae8489
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ba1ad9c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.4.0-M1
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.4.0-M1 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.0-M1 [compile->runtime]
@@ -99,7 +99,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-iteratees_2.11;2.4.0-M1 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@352c46dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bcf9389
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->runtime]
@@ -107,7 +107,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.0-M1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.4.0-M1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19ee5088
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d12672c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.4.0-M1
 [debug] 	found com.typesafe.play#play-functional_2.11;2.4.0-M1 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.0-M1 [compile->runtime]
@@ -115,7 +115,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-functional_2.11;2.4.0-M1 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.0-M1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.4.0-M1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@256e0c52
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e7b1258
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.4.0-M1
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.4.0-M1 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.0-M1 [compile->runtime]
@@ -123,7 +123,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.play#play-datacommons_2.11;2.4.0-M1 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->joda-time#joda-time;2.3 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18f260d5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@64771dc4
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.3
 [debug] 	found joda-time#joda-time;2.3 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->joda-time#joda-time;2.3 [compile->runtime]
@@ -131,7 +131,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->joda-time#joda-time;2.3 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.joda#joda-convert;1.6 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2254f31f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74bbd62
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.6
 [debug] 	found org.joda#joda-convert;1.6 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.joda#joda-convert;1.6 [compile->runtime]
@@ -139,7 +139,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.joda#joda-convert;1.6 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42920cca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@503245bd
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.1
 [debug] 	found org.scala-lang#scala-reflect;2.11.1 in sbt-chain
 [debug] 	[2.11.1] org.scala-lang#scala-reflect;2.11.1
@@ -148,7 +148,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.1 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ba3418c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f6f386c
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.2 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->runtime]
@@ -156,7 +156,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29872689
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ef05d7e
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.2 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->runtime]
@@ -164,7 +164,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62638c95
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@440bdce8
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.2 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->runtime]
@@ -172,7 +172,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-testkit_2.11;2.4.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59d2c3b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6be50a91
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.4.12
 [debug] 	found com.typesafe.akka#akka-testkit_2.11;2.4.12 in sbt-chain
 [debug] 	[2.4.12] com.typesafe.akka#akka-testkit_2.11;2.4.12
@@ -181,7 +181,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.12 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30907763
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a3d7628
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.12
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.12 in sbt-chain
 [debug] 	[2.4.12] com.typesafe.akka#akka-actor_2.11;2.4.12
@@ -190,7 +190,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.12 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ec7ed34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b0a3ccf
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
@@ -198,7 +198,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@95a8d92
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2236ba32
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
 [debug] 	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->junit#junit;4.8.2 [compile->default(compile)]
 [info] Resolving junit#junit;4.8.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65b2be95
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7046537c
 [debug] sbt-chain: module revision found in cache: junit#junit;4.8.2
 [debug] 	found junit#junit;4.8.2 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->junit#junit;4.8.2 [compile->runtime]
@@ -214,7 +214,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->junit#junit;4.8.2 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->default(compile)]
 [info] Resolving org.eclipse.equinox#common;3.6.200-v20130402-1505 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14c15aa1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cc4c40d
 [debug] sbt-chain: module revision found in cache: org.eclipse.equinox#common;3.6.200-v20130402-1505
 [debug] 	found org.eclipse.equinox#common;3.6.200-v20130402-1505 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->runtime]
@@ -222,7 +222,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#common;3.6.200-v20130402-1505 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->default(compile)]
 [info] Resolving org.eclipse.equinox#registry;3.5.400-v20140428-1507 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a6fa427
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63738cf8
 [debug] sbt-chain: module revision found in cache: org.eclipse.equinox#registry;3.5.400-v20140428-1507
 [debug] 	found org.eclipse.equinox#registry;3.5.400-v20140428-1507 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->runtime]
@@ -230,7 +230,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#registry;3.5.400-v20140428-1507 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->default(compile)]
 [info] Resolving org.eclipse#osgi;3.10.0-v20140606-1445 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e152ba1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@726126c3
 [debug] sbt-chain: module revision found in cache: org.eclipse#osgi;3.10.0-v20140606-1445
 [debug] 	found org.eclipse#osgi;3.10.0-v20140606-1445 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->runtime]
@@ -238,7 +238,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse#osgi;3.10.0-v20140606-1445 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->default(compile)]
 [info] Resolving org.eclipse.core#runtime;3.10.0-v20140318-2214 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c7f8adc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b101c18
 [debug] sbt-chain: module revision found in cache: org.eclipse.core#runtime;3.10.0-v20140318-2214
 [debug] 	found org.eclipse.core#runtime;3.10.0-v20140318-2214 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->runtime]
@@ -246,7 +246,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.core#runtime;3.10.0-v20140318-2214 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->default(compile)]
 [info] Resolving org.eclipse.core#jobs;3.6.0-v20140424-0053 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@607e1e15
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@131ba82b
 [debug] sbt-chain: module revision found in cache: org.eclipse.core#jobs;3.6.0-v20140424-0053
 [debug] 	found org.eclipse.core#jobs;3.6.0-v20140424-0053 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->runtime]
@@ -254,7 +254,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.core#jobs;3.6.0-v20140424-0053 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->default(compile)]
 [info] Resolving org.eclipse.equinox#preferences;3.5.200-v20140224-1527 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3950c5dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@362429d6
 [debug] sbt-chain: module revision found in cache: org.eclipse.equinox#preferences;3.5.200-v20140224-1527
 [debug] 	found org.eclipse.equinox#preferences;3.5.200-v20140224-1527 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->runtime]
@@ -262,7 +262,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#preferences;3.5.200-v20140224-1527 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->default(compile)]
 [info] Resolving org.eclipse.core#contenttype;3.4.200-v20140207-1251 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5982b24
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2eb704d1
 [debug] sbt-chain: module revision found in cache: org.eclipse.core#contenttype;3.4.200-v20140207-1251
 [debug] 	found org.eclipse.core#contenttype;3.4.200-v20140207-1251 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->runtime]
@@ -270,7 +270,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.core#contenttype;3.4.200-v20140207-1251 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->default(compile)]
 [info] Resolving org.eclipse.equinox#app;1.3.200-v20130910-1609 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f8f745b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c852f14
 [debug] sbt-chain: module revision found in cache: org.eclipse.equinox#app;1.3.200-v20130910-1609
 [debug] 	found org.eclipse.equinox#app;1.3.200-v20130910-1609 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->runtime]
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.eclipse.equinox#app;1.3.200-v20130910-1609 [compile->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-swing;2.11.0-M7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e201ccf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57cc5c2c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-swing;2.11.0-M7
 [debug] 	found org.scala-lang#scala-swing;2.11.0-M7 in sbt-chain
 [debug] 	[2.11.0-M7] org.scala-lang#scala-swing;2.11.0-M7
@@ -954,7 +954,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang#scala-swing;2.11.0-M7 [test->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ed1b5ae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78df40
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.5
 [debug] 	found org.scalatest#scalatest_2.11;2.2.5 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->runtime]
@@ -962,7 +962,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15d59437
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22137e5a
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -971,7 +971,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26b28545
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@471108d5
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
@@ -979,7 +979,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->junit#junit;4.12 [test->default(compile)]
 [info] Resolving junit#junit;4.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@658d38f8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d55da8
 [debug] sbt-chain: module revision found in cache: junit#junit;4.12
 [debug] 	found junit#junit;4.12 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->junit#junit;4.12 [test->runtime]
@@ -987,7 +987,7 @@
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->junit#junit;4.12 [test->master]
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30b16900
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d964d9f
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
 [debug] == resolving dependencies homework3#homework3$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [test->runtime]
@@ -2401,18 +2401,18 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 965ms :: artifacts dl 52ms
-[debug] 	report for homework3#homework3$sources_2.11;1.0 compile produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-compile.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 runtime produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-runtime.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 test produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-test.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 provided produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-provided.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 optional produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-optional.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 compile-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-compile-internal.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 runtime-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-runtime-internal.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 test-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-test-internal.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 plugin produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-plugin.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 sources produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-sources.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 docs produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-docs.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 pom produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-pom.xml
-[debug] 	report for homework3#homework3$sources_2.11;1.0 scala-tool produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/test/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-scala-tool.xml
-[debug] 	resolve done (965ms resolve - 52ms download)
+[debug] :: resolution report :: resolve 924ms :: artifacts dl 65ms
+[debug] 	report for homework3#homework3$sources_2.11;1.0 compile produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-compile.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 runtime produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-runtime.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 test produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-test.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 provided produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-provided.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 optional produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-optional.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 compile-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-compile-internal.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 runtime-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-runtime-internal.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 test-internal produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-test-internal.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 plugin produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-plugin.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 sources produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-sources.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 docs produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-docs.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 pom produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-pom.xml
+[debug] 	report for homework3#homework3$sources_2.11;1.0 scala-tool produced in /Users/ahmedmetwally/Dropbox/UIC/Courses/CS-474-OLE/FinalProject/Friday1205pm/ahmed_eric_samrudhi_fp/target/resolution-cache/reports/homework3-homework3$sources_2.11-scala-tool.xml
+[debug] 	resolve done (924ms resolve - 65ms download)
