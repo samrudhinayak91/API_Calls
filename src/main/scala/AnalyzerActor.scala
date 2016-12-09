@@ -10,7 +10,8 @@ object AnalyzerActor {
   class ComparisonActor extends Actor {
     implicit val materializer = ActorMaterializer()
     def receive = {
-      var visitor=new Visitor()
+      case repoString: String => {
+        var visitor=new Visitor()
         var inputFile= new File(repoString)
         TestParser.listFilesForFolder(inputFile,visitor)
         val fdir = repoString + "/Analysis";
