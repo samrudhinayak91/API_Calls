@@ -76,18 +76,17 @@ object DownloaderActor{
       val yy =  cloneGitHubStr !!;
 
 
-      println("repostring = " + repostring)
-      println("projectFullName = " + projectFullName)
-      val totalRepoString:String = repostring + "/" + projectFullName.split("/")(1)
-
-      println("totalRepoString = " + totalRepoString)
+//      println("repostring = " + repostring)
+//      println("projectFullName = " + projectFullName)
+//      val totalRepoString:String = repostring + "/" + projectFullName.split("/")(1)
+//      println("totalRepoString = " + totalRepoString)
 
 
 //      var urlss = scala.io.Source.fromURL(tag_url).mkString
 //      var obj = Json.parse(urlss)
 
       //send the location of the cloned application to the AnalyzerActor
-      actors ! totalRepoString
+      actors ! repostring
     }
   }
 

@@ -30,7 +30,13 @@ object AnalyzerActor {
 
     // Write statistics to file
     def writeToFile (repoString : String, visitor : Visitor) = {
-      val temp_write_file = new PrintWriter (new File (repoString + "_statistics.txt") )
+
+      val fdir = repoString + "/Analysis";
+      var newVersion=  Process(Seq("mkdir", fdir))!!;
+      val temp_write_file = new PrintWriter(new File(repoString + "/Analysis" +"/output.txt"))
+
+
+//      val temp_write_file = new PrintWriter (new File (repoString + "_statistics.txt") )
       temp_write_file.write ("Methods invoked : " + visitor.getSummer.toString + "\n")
       temp_write_file.write ("Methods from java.util, java.io and java.lang : " + visitor.getoperators ().toString () + "\n")
       var summer = visitor.getSummer ()
