@@ -47,7 +47,7 @@ class Request{
         var username: String = null
         var name: String = null
         //find first 20 applications matching the keywords
-        for (a <- 0 to 1) {
+        for (a <- 0 to 5) {
           //build tempstring with the URL off each application along with their username and name
           username = obj.\("repositories")(a).\("username").toString()
           name = obj.\("repositories")(a).\("name").toString()
