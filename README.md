@@ -1,5 +1,11 @@
 #  Getting the statistics of API calls from GitHub repositories
 
+## Project members
+  * Ahmed Metwally (678120810)
+  * Samrudhi Nayak (652550698)
+  * Eric Wolfson (678795352)
+
+## Overview
 
 This project aims at finding what percentage of the method calls from GitHub repositories are from java.util, java.lang and java.io. We use the REST APIs of the akka toolkit as well as the actor pattern to send and receive messages between actors. It also uses GitHub APIs to stream open source applications from GitHub and clone the repositories into our local directories. We then build an abstract syntax tree of the nodes in the code of the downloaded repositories. We have used the search engine API of the JDT to find the calls made to java.util, java.lang and java.io and compare them to the total number of methods invoked to get the percentage of total calls that come from those libraries. Ours is a console based App and we have used the Scala Swing APIs to build the GUI. You can read about the above mentioned resources through the links given below:
 
