@@ -54,7 +54,7 @@ object DownloaderActor{
                 val jtemp = Json.parse(s)
                 val tempstr = s.toString.length
                 //if tag url is empty and has only the [] then skip that file, else send it to the function that clones the application
-                if(tempstr > 2) {
+                if(tempstr != 0) {
                   projectsCloneURL += cloneURLtmp
                   cloneGitHubStr = "git clone " + cloneURLtmp + " repo_projects/" + projectFullName
                   val Array(n1, n2, _*) = projectFullName.split("/")
