@@ -63,7 +63,7 @@ sbt run
 ```
 
 
-Then the program should ask you to enter a keyword to narrow down the search for applications from GitHub and download the repositories to your local system.
+Then the program console has a field where the user can enter a keyword to narrow down the search for applications from GitHub and download the repositories to your local system.
 
 
 
