@@ -44,6 +44,7 @@ object DownloaderActor{
             projectFullName = projectFullName.replace("\"", "");
             cloneURLtmp = projectJS.\("clone_url").toString()
             cloneURLtmp = cloneURLtmp.replace("\"", "");
+
             //get tag url which is used to store versions
             var tag_url = projectJS.\("tags_url").toString().replace("\"", "");
             val responseFuture3 = Http().singleRequest(HttpRequest(uri = tag_url))
@@ -68,13 +69,25 @@ object DownloaderActor{
       case i:Int => println("Integer : " +i)
 
     }
+
+
     def parsing(repostring: String, cloneURLtmp: String, projectFullName: String, cloneGitHubStr: String, tag_url: String ) = {
       //run command to clone application
       val yy =  cloneGitHubStr !!;
-      var urlss = scala.io.Source.fromURL(tag_url).mkString
-      var obj = Json.parse(urlss)
+
+
+      println("repostring = " + repostring)
+      println("projectFullName = " + projectFullName)
+      val totalRepoString:String = repostring + "/" + projectFullName.split("/")(1)
+
+      println("totalRepoString = " + totalRepoString)
+
+
+//      var urlss = scala.io.Source.fromURL(tag_url).mkString
+//      var obj = Json.parse(urlss)
+
       //send the location of the cloned application to the AnalyzerActor
-      actors ! repostring
+      actors ! totalRepoString
     }
   }
 

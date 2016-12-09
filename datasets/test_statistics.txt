@@ -1,0 +1,3 @@
+Methods invoked : 10.0
+Methods from java.util, java.io and java.lang : 2.0
+Percentage of method invoked from the packages are : 20.0% 
