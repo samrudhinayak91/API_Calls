@@ -39,39 +39,19 @@ object DownloaderActor{
           val p2 = response2.entity.dataBytes.runFold(ByteString.empty)(_ ++ _).map(_.utf8String)
           for(m2<-p2)
           {
+          //parse through json object
             val projectJS = Json.parse(m2)
             projectFullName=projectJS.\("full_name").toString()
             projectFullName = projectFullName.replace("\"", "");
+            //get clone_url from json object
             cloneURLtmp = projectJS.\("clone_url").toString()
             cloneURLtmp = cloneURLtmp.replace("\"", "");
 
             cloneGitHubStr = "git clone " + cloneURLtmp + " repo_projects/" + projectFullName
             val Array(n1, n2, _*) = projectFullName.split("/")
             var repostring = "repo_projects/" + n1
-            parsing(repostring, cloneGitHubStr)
-
-
-
-
-
-//            //get tag url which is used to store versions
-//            var tag_url = projectJS.\("tags_url").toString().replace("\"", "");
-//            val responseFuture3 = Http().singleRequest(HttpRequest(uri = tag_url))
-//            val response3 = Await.result(responseFuture3, Duration.Inf)
-//            val temptag = response3.entity.dataBytes.runFold(ByteString.empty)(_ ++ _).map(_.utf8String)
-//            for(s<-temptag)
-//              {
-//                val jtemp = Json.parse(s)
-//                val tempstr = s.toString.length
-//                //if tag url is empty and has only the [] then skip that file, else send it to the function that clones the application
-//                if(tempstr != 0) {
-//                  projectsCloneURL += cloneURLtmp
-//                  cloneGitHubStr = "git clone " + cloneURLtmp + " repo_projects/" + projectFullName
-//                  val Array(n1, n2, _*) = projectFullName.split("/")
-//                  var repostring = "repo_projects/" + n1
-//                  parsing(repostring, cloneGitHubStr)
-//                }
-//              }
+            //clone into given directory
+            parsing(repostring, cloneGitHubStr)   
           }
         }
       }
