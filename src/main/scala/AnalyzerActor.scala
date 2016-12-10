@@ -8,9 +8,9 @@ object AnalyzerActor {
     implicit val materializer = ActorMaterializer()
     def receive = {
       case repoString: String => {
-        println("before analysing in reposString")
+      //analyze the repo
         val visitor = analyseRepo(repoString);
-        println("analysing in reposString")
+        //write analysis to file
         writeToFile (repoString : String, visitor : Visitor);
       }
     }
@@ -22,29 +22,20 @@ object AnalyzerActor {
       TestParser.listFilesForFolder (inputFile, visitor)
       return visitor;
     }
-
-//    val fdir = repoString + "/Analysis";
-//    var newVersion=  Process(Seq("mkdir", fdir))!!;
-//    val temp_write_file = new PrintWriter(new File(repoString + "/Analysis" +"/output.txt"))
-
-
-
-
     // Write statistics to file
     def writeToFile (repoString : String, visitor : Visitor) = {
-
+  //file is written into a directory called Analysis and named output.txt
       val fdir = repoString + "/Analysis";
       var newVersion=  Process(Seq("mkdir", fdir))!!;
       val temp_write_file = new PrintWriter(new File(repoString + "/Analysis" +"/output.txt"))
-
-
-//      val temp_write_file = new PrintWriter (new File (repoString + "_statistics.txt") )
       temp_write_file.write ("Methods invoked : " + visitor.getSummer.toString + "\n")
       temp_write_file.write ("Methods from java.util, java.io and java.lang : " + visitor.getoperators ().toString () + "\n")
       var summer = visitor.getSummer ()
       var ops = visitor.getoperators ()
+      //calculate the percentage
       var writ = (ops / summer) * 100
       temp_write_file.write ("Percentage of method invoked from the packages are : " + writ + "% \n")
+      //close file after writing to it
       temp_write_file.close ()
       println ("Written and closed")
     }
