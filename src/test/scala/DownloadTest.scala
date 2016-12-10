@@ -14,10 +14,10 @@ class DownloadTest extends TestKit(ActorSystem("TestActor")) {
   val actor = actorRef.underlyingActor
 
   @Test
-  // Checks the correctness of the extracted statistics
+  // Check the repo download from github
   def testAnalyseRepo: Unit = {
-    actor.parsing("../../datasets/BenjaminSchiller", "git clone https://github.com/BenjaminSchiller/DNA.git ../../datasets/BenjaminSchiller/DNA")
-    Assert.assertEquals(Files.exists(Paths.get("../../datasets/BenjaminSchiller/DNA")), true)
+    actor.parsing("datasets/BenjaminSchiller", "git clone https://github.com/BenjaminSchiller/DNA.git datasets/BenjaminSchiller/DNA")
+    Assert.assertEquals(Files.exists(Paths.get("datasets/BenjaminSchiller/DNA")), true)
 
   }
 }

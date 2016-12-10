@@ -15,15 +15,15 @@ class AnalyseActorTest extends TestKit(ActorSystem("TestActor")) {
 
 
   @Test
-  // Checks whether or not the statistics file is written correctly or not
+  // Checks whether or not the statistics file is written correctly
   def testWriteToFile: Unit ={
     var v = new Visitor;
     v.operators=2
     v.summer=10
-    actor.writeToFile("../../datasets/test", v)
-    Assert.assertEquals(Files.exists(Paths.get("../../datasets/test_statistics.txt")), true)
+    actor.writeToFile("datasets", v)
+    Assert.assertEquals(Files.exists(Paths.get("datasets/Analysis/output.txt")), true)
 
-    val filename = "../../datasets/test_statistics.txt"
+    val filename = "datasets/Analysis/output.txt"
     for (line <- Source.fromFile(filename).getLines()) {
       line match {
         case s if s.startsWith("Percentage") => Assert.assertEquals(s.split(":")(1).replace( " ","" ), "20.0%")

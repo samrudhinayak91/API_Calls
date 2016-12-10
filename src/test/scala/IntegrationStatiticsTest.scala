@@ -13,7 +13,7 @@ class IntegrationStatiticsTest extends TestKit(ActorSystem("TestActor")) {
   @Test
   // Checks the correctness of the extracted statistics
   def testAnalyseRepo {
-    val vis = actor.analyseRepo("../../datasets/square/okio")
+    val vis = actor.analyseRepo("datasets/square/okio")
     var summer = vis.getSummer()
     var ops = vis.getoperators()
     var writ = (ops / summer) * 100
