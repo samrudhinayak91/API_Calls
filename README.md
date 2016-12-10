@@ -19,7 +19,7 @@ This project aims at finding what percentage of the method calls from GitHub rep
 
 ![Screen Shot 2016-12-09 at 7.43.27 PM.png](https://bitbucket.org/repo/d4KoKE/images/650682917-Screen%20Shot%202016-12-09%20at%207.43.27%20PM.png)
 
-* A keyword to search for (Example: "dna" as the keyword will look for all projects within the GitHub repository with the word "dna" in it's name) The download takes a few seconds so please hit "refresh to find the downloaded repositories listed.
+* A keyword to search for (Example: "dna" as the keyword will look for all projects within the GitHub repository with the word "dna" in it's name) The download takes a few seconds so please hit "Refresh" to find the downloaded repositories listed.
 
 ## Output
 
