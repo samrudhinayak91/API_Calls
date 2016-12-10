@@ -17,13 +17,14 @@ This project aims at finding what percentage of the method calls from GitHub rep
 
 ## Input
 
-![Screen Shot 2016-12-09 at 7.41.45 PM.png](https://bitbucket.org/repo/d4KoKE/images/668222172-Screen%20Shot%202016-12-09%20at%207.41.45%20PM.png)
+![Screen Shot 2016-12-09 at 7.43.27 PM.png](https://bitbucket.org/repo/d4KoKE/images/650682917-Screen%20Shot%202016-12-09%20at%207.43.27%20PM.png)
 
 * A keyword to search for (Example: "dna" as the keyword will look for all projects within the GitHub repository with the word "dna" in it's name)
 
 ## Output
 
-![Screen Shot 2016-12-09 at 7.43.27 PM.png](https://bitbucket.org/repo/d4KoKE/images/650682917-Screen%20Shot%202016-12-09%20at%207.43.27%20PM.png)
+
+![Screen Shot 2016-12-09 at 7.41.45 PM.png](https://bitbucket.org/repo/d4KoKE/images/668222172-Screen%20Shot%202016-12-09%20at%207.41.45%20PM.png)
 
 Once you click on "Download", the repositories with the keyword will be downloaded and the downloaded repositories will be analyzed. The output of the analysis is stored in a text file in the folders of the cloned repositories. You then hit "Refresh" to get the list of downloaded repositories.
 
