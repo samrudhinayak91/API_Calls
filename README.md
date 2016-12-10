@@ -15,17 +15,17 @@ This project aims at finding what percentage of the method calls from GitHub rep
 * Scala Swing APIs: http://www.scala-lang.org/api/rc2/scala/swing/package.html
 
 
-## Inputs:
+## Input
 
 * A keyword to search for (Example: "dna" as the keyword will look for all projects within the GitHub repository with the word "dna" in it's name)
 
-## Output :
+## Output
 
 Once you click on "Download", the repositories with the keyword will be downloaded and the downloaded repositories will be analyzed. The output of the analysis is stored in a text file in the folders of the cloned repositories. You then hit "Refresh" to get the list of downloaded repositories.
 
 To get the statistics of the API call percentages, you hit the "Statistics" button which will populate the statistics onto the console window.
 
-To delete any of the repositories, click on the "Delete folder and Contents" button at the bottom of the screen and hit "Refresh" again to see the updated list of repositories.
+To delete any of the repositories, click on the "Delete" button at the bottom of the screen and hit "Refresh" again to see the updated list of repositories.
 
 
 ## Getting Started
@@ -59,7 +59,7 @@ sbt compile
 
 There are a few test cases implemented in this program. These test cases ensure that every method works as expected. You can test them using:
 ```
-sbt "test-only "
+sbt "test-only"
 ```
 
 
