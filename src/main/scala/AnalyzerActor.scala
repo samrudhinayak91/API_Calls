@@ -8,7 +8,9 @@ object AnalyzerActor {
     implicit val materializer = ActorMaterializer()
     def receive = {
       case repoString: String => {
+        println("before analysing in reposString")
         val visitor = analyseRepo(repoString);
+        println("analysing in reposString")
         writeToFile (repoString : String, visitor : Visitor);
       }
     }

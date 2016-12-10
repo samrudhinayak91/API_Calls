@@ -2,16 +2,14 @@ import swing._
 import swing.event._
 import swing.BorderPanel.Position._
 import event._
-
 import scala.io.Source
-
 import java.util.function.Consumer
-
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.nio.file.Path
-
 import java.io.File
+
+import scala.reflect.io.Directory
 
 object ScalaSwingGUIClass extends SimpleSwingApplication {
   var folder_list = List[String]()
@@ -22,27 +20,27 @@ object ScalaSwingGUIClass extends SimpleSwingApplication {
 
   var stats_label_string = ""
 
-  def getLanguage() : String = {
+  def getLanguage(): String = {
     return lang
   }
 
-  def getKeyword() : String = {
+  def getKeyword(): String = {
     return keyword
   }
 
-  def getCurrentFolder() : String = {
+  def getCurrentFolder(): String = {
     return current_folder
   }
 
-  def getStatsLabelString() : String = {
+  def getStatsLabelString(): String = {
     return stats_label_string
   }
 
-  def setupFolderList(add_initial: Boolean) : Unit = {
+  def setupFolderList(add_initial: Boolean): Unit = {
     folder_list = new File("repo_projects").listFiles.filter(_.isDirectory).map(_.getName).toList
 
     if (add_initial == true)
-        folder_list = "<<<<SELECT FOLDER>>>>" :: folder_list
+      folder_list = "<<<<SELECT FOLDER>>>>" :: folder_list
   }
 
   def top = new MainFrame {
@@ -50,7 +48,7 @@ object ScalaSwingGUIClass extends SimpleSwingApplication {
     setupFolderList(true)
 
     title = "Main GUI"
-    preferredSize = new Dimension(640,480)
+    preferredSize = new Dimension(640, 480)
     //https://www.cis.upenn.edu/~matuszek/Concise%20Guides/Concise%20Scala%20GUI.html
     menuBar = new MenuBar {
       contents += new Menu("File") {
@@ -61,7 +59,7 @@ object ScalaSwingGUIClass extends SimpleSwingApplication {
     }
 
     val dl_btn = new Button {
-      preferredSize = new Dimension(60,60)
+      preferredSize = new Dimension(60, 60)
       text = "Download"
     }
 
@@ -72,12 +70,12 @@ object ScalaSwingGUIClass extends SimpleSwingApplication {
     }
 
     val showstats_btn = new Button {
-      preferredSize = new Dimension(60,60)
+      preferredSize = new Dimension(60, 60)
       text = "Statistics"
     }
 
     val delete_btn = new Button {
-      preferredSize = new Dimension(60,60)
+      preferredSize = new Dimension(60, 60)
       text = "Delete"
     }
 
@@ -94,16 +92,16 @@ object ScalaSwingGUIClass extends SimpleSwingApplication {
     var folder_combobox = new ListView(folder_list)
 
     val stats_panel = new BorderPanel {
-      add(stats_label,BorderPanel.Position.Center)
+      add(stats_label, BorderPanel.Position.Center)
     }
 
-    val folder_gridbox = new GridPanel(1,3) {
+    val folder_gridbox = new GridPanel(1, 3) {
       contents += showstats_btn
       contents += refresh_btn
       contents += delete_btn
     }
 
-    val main_gridbox = new GridPanel(2,2) {
+    val main_gridbox = new GridPanel(2, 2) {
       contents += keyword_textbox
       contents += dl_btn
       contents += folder_combobox
@@ -119,51 +117,46 @@ object ScalaSwingGUIClass extends SimpleSwingApplication {
     listenTo(refresh_btn)
     listenTo(showstats_btn)
     listenTo(delete_btn)
-    listenTo(folder_combobox.mouse.clicks,folder_combobox.selection)
+    listenTo(folder_combobox.mouse.clicks, folder_combobox.selection)
 
     reactions += {
       case ButtonClicked(component)
-        if component == dl_btn =>
-        {
-          keyword = keyword_textbox.text
-          doDownloading()
-        }
+        if component == dl_btn => {
+        keyword = keyword_textbox.text
+        doDownloading()
+      }
       case ButtonClicked(component)
-        if component == refresh_btn =>
-        {
-          setupFolderList(true)
-          folder_combobox.listData = folder_list
-        }
+        if component == refresh_btn => {
+        setupFolderList(true)
+        folder_combobox.listData = folder_list
+      }
       case ButtonClicked(component)
-        if component == delete_btn =>
-        {
-          delete_folder_recursively()
-          stats_label.text = getStatsLabelString()
-        }
+        if component == delete_btn => {
+        val path = new File("repo_projects/" + current_folder)
+        delete(path)
+        stats_label.text = getStatsLabelString()
+      }
       case ButtonClicked(component)
-        if component == showstats_btn =>
-        {
-          setStatsForSelection()
-          stats_label.text = getStatsLabelString()
-        }
-      case ListSelectionChanged(folder_combobox,range,live) =>
-        {
-          if (folder_combobox.peer.getSelectedIndex() <= folder_list.size - 1 &&
-              folder_combobox.peer.getSelectedIndex() >= 0)
-              current_folder = folder_combobox.listData(folder_combobox.peer.getSelectedIndex()).toString()
-        }
+        if component == showstats_btn => {
+        setStatsForSelection()
+        stats_label.text = getStatsLabelString()
+      }
+      case ListSelectionChanged(folder_combobox, range, live) => {
+        if (folder_combobox.peer.getSelectedIndex() <= folder_list.size - 1 &&
+          folder_combobox.peer.getSelectedIndex() >= 0)
+          current_folder = folder_combobox.listData(folder_combobox.peer.getSelectedIndex()).toString()
+      }
     }
   }
 
   def doDownloading(): Unit = {
     Console.println(keyword)
-    val r= new Request()
+    val r = new Request()
     r.fetchKeyword(getKeyword())
   }
 
   def setStatsForSelection(): Unit = {
-    if (current_folder == "<<<<SELECT FOLDER>>>>")
-    {
+    if (current_folder == "<<<<SELECT FOLDER>>>>") {
       stats_label_string = "Please select a folder from the drop down menu..."
       return
     }
@@ -182,59 +175,22 @@ object ScalaSwingGUIClass extends SimpleSwingApplication {
       return
     }
     val file_opened = Source.fromFile(total_path)
-    for(line <- file_opened.getLines()) {
+    for (line <- file_opened.getLines()) {
       stats_label_string = stats_label_string + line + "\n"
     }
     file_opened.close()
   }
 
-  def delete_folder_recursively(): Unit =
-  {
-    if (current_folder == "<<<<SELECT FOLDER>>>>")
-    {
-      stats_label_string = "Please select a folder from the drop down menu to delete."
-      return
-    }
-    val folder_path = "repo_projects/" + current_folder
-    val folder_path_exists = Files.exists(Paths.get(folder_path))
-    if (!folder_path_exists) {
-      stats_label_string = "Cannot find folder path! Please ensure repo folder exists!"
-      return
-    }
-    val list_of_subfolders = new File(folder_path).listFiles.filter(_.isDirectory).map(_.getName)
-    list_of_subfolders.foreach {
-      sub_folder =>
-        Files.walk(Paths.get(folder_path + "/" + sub_folder)).forEach(new Consumer[Path] {
-          def accept(pth: Path) =
-            if (Files.isRegularFile(pth)) {
-                val file = new File(pth.toString())
-                if (file.exists)
-                    file.delete()
-            }
-        })
-    }
-    list_of_subfolders.foreach {
-      sub_folder => deleteHelper(folder_path + "/" + sub_folder)
-    }
-    deleteHelper(folder_path)
-    val main_file = new File(folder_path)
-    if (main_file.exists) {
-      main_file.delete()
-    }
-    //folder_list = folder_list.drop(folder_list.indexOf(current_folder))
+  def delete(file: File) {
+    if (!file.exists()) {
+            stats_label_string = "Cannot find folder path! Please ensure repo folder exists!"
+            return
+          }
+    if (file.isDirectory)
+      Option(file.listFiles).map(_.toList).getOrElse(Nil).foreach(delete(_))
+    file.delete
   }
-
-  def deleteHelper(f_path : String ): Unit =
-  {
-    Files.walk(Paths.get(f_path)).forEach(new Consumer[Path] {
-      def accept(pth: Path) =
-        if (Files.isDirectory(pth)) {
-          val file = new File(pth.toString())
-          if (file.exists)
-            file.delete()
-        }
-    })
-  }
-
 }
+
+
 
