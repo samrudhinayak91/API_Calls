@@ -55,7 +55,7 @@ class Request{
 
         //find first n applications matching the keywords
         // we hardcoded n=5
-        for (a <- 0 to 1) {
+        for (a <- 0 to 6) {
           //build tempstring with the URL off each application along with their username and name
           username = obj.\("repositories")(a).\("username").toString()
           name = obj.\("repositories")(a).\("name").toString()

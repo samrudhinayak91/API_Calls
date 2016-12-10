@@ -1,5 +1,9 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(RequestTest, sbt.AnnotatedFingerprintWrapper@5b5914a3, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(DownloadTest, sbt.AnnotatedFingerprintWrapper@89cc352, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(AnalyseActorTest, sbt.AnnotatedFingerprintWrapper@89cc352, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(IntegrationStatiticsTest, sbt.AnnotatedFingerprintWrapper@89cc352, false, [SuiteSelector])[0m
 [0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
-[0m[[0minfo[0m] [0mPassed: Total 1, Failed 0, Errors 0, Passed 1[0m
+[0m[[0minfo[0m] [0mPassed: Total 3, Failed 0, Errors 0, Passed 3[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
-[0m[[0mdebug[0m] [0m	RequestTest[0m
+[0m[[0mdebug[0m] [0m	AnalyseActorTest[0m
+[0m[[0mdebug[0m] [0m	IntegrationStatiticsTest[0m
+[0m[[0mdebug[0m] [0m	DownloadTest[0m

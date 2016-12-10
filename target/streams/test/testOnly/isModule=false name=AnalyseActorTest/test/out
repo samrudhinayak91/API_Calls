@@ -1,0 +1,7 @@
+[0m[[31merror[0m] [0mTest [33mAnalyseActorTest[0m.[31mtestWriteToFile[0m failed: Nonzero exit value: 1[0m
+[0m[[31merror[0m] [0m    at scala.sys.package$.error(package.scala:27)[0m
+[0m[[31merror[0m] [0m    at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.slurp(ProcessBuilderImpl.scala:132)[0m
+[0m[[31merror[0m] [0m    at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$bang$bang(ProcessBuilderImpl.scala:102)[0m
+[0m[[31merror[0m] [0m    at AnalyzerActor$ComparisonActor.writeToFile(AnalyzerActor.scala:30)[0m
+[0m[[31merror[0m] [0m    at AnalyseActorTest.testWriteToFile(AnalyseActorTest.scala:23)[0m
+[0m[[31merror[0m] [0m    ...[0m
