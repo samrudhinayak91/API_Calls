@@ -92,3 +92,8 @@ The program then uses the keyword to clone the repositories matching the keyword
 * We then build the abstract syntax tree for each of the repositories and parse through it to get the number of method invocations and the method declarations from java.util, java.io and java.lang. We have used the search engine API from the JDT to achieve this functionality.
 * We have used the Scala Swing APIs to create the GUI.
 * All the test cases are written using JUnit and scala test libraries.
+
+##Limitations
+
+* Our application only works on Linux based systems
+* Our application only takes into account the API calls from java.util, java.lang and java.io and not all the APIs from the JDK
