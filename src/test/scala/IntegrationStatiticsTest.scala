@@ -6,7 +6,7 @@ import org.junit.{Assert, Test}
   * Created by ahmedmetwally on 12/9/16.
   */
 
-class StatiticsCorrectnessTest extends TestKit(ActorSystem("TestActor")) {
+class IntegrationStatiticsTest extends TestKit(ActorSystem("TestActor")) {
   val actorRef = TestActorRef[AnalyzerActor.ComparisonActor]
   val actor = actorRef.underlyingActor
 
